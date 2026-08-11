@@ -3,8 +3,27 @@ name: Episodic Pivot Scanner
 on:
   schedule:
     # 12:35 UTC = 18:05 IST, Mon-Fri (right after the main Stage 2 screen)
+    # Uses defaults: trailing 7-day replay window, yearly-high-volume filter OFF
     - cron: "35 12 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Replay start date YYYY-MM-DD (leave blank to use 'days' below instead)"
+        required: false
+        default: ""
+      end_date:
+        description: "Replay end date YYYY-MM-DD (leave blank for today)"
+        required: false
+        default: ""
+      days:
+        description: "If start_date is blank, replay the trailing N calendar days"
+        required: false
+        default: "7"
+      require_yearly_high_volume:
+        description: "Require expansion-day volume to be the highest in the trailing ~1 year"
+        required: false
+        default: "false"
+        type: boolean
 
 permissions:
   contents: write
@@ -23,7 +42,21 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run episodic pivot scanner
-        run: python episodic_pivot_scanner.py
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.start_date }}" ]; then
+            ARGS="$ARGS --start ${{ github.event.inputs.start_date }}"
+          fi
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
+            ARGS="$ARGS --end ${{ github.event.inputs.end_date }}"
+          fi
+          if [ -n "${{ github.event.inputs.days }}" ]; then
+            ARGS="$ARGS --days ${{ github.event.inputs.days }}"
+          fi
+          if [ "${{ github.event.inputs.require_yearly_high_volume }}" = "true" ]; then
+            ARGS="$ARGS --require-yearly-high-volume"
+          fi
+          python episodic_pivot_scanner.py $ARGS
 
       - name: Commit and push results
         run: |
