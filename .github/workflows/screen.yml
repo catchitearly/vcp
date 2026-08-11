@@ -1,0 +1,34 @@
+name: Stage 2 Screener
+
+on:
+  schedule:
+    # 12:30 UTC = 18:00 IST, Mon-Fri (well after 15:30 IST close, EOD data settled)
+    - cron: "30 12 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Stage 2 screener
+        run: python stage2_screener.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "Update Stage 2 screen results"
+          git push
