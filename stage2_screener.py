@@ -136,7 +136,7 @@ def write_html(all_results, passed):
     <span class="badge">{len(passed)} passed</span> of {len(all_results)} screened
     &middot; Min RS Rating {core.MIN_RS_RATING} &middot; Min 20D turnover ₹{core.MIN_AVG_TURNOVER_20D/1e7:.0f} Cr
     &middot; <span class="vcp-badge">VCP tight</span> = contracting swings + volume dry-up + range tightness (heuristic, verify on chart)
-    &middot; <a href="backtest_report.html">Backtest report &rarr;</a>
+    &middot; <a href="backtest_report.html">Backtest report</a> &middot; <a href="episodic_pivots.html">Episodic pivots &rarr;</a>
   </div>
   <table>
     <thead>

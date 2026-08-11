@@ -11,6 +11,7 @@ Python, no numpy/pandas in the analysis logic.
 |---|---|
 | `screener_core.py` | Shared trend-template/liquidity/RS logic. Every function takes an `end_index` so it can evaluate "as of" any historical bar — this is what makes the backtest leak-free. Used by both the live screener and the backtester. |
 | `vcp_detector.py` | VCP overlay: contracting-swing detection (zigzag pivots), volume dry-up ratio, ATR range tightness. Runs only on names that already pass Stage 2. |
+| `episodic_pivot_scanner.py` | Finds "episodic pivot" / power-play setups: a single-day range-expansion move on huge volume, followed by an orderly hold near the highs, drying volume, and an inside bar. Independent of the Stage 2 screen — scans the whole universe on its own. Writes `docs/episodic_pivots.html`. |
 | `stage2_screener.py` | Live daily run. Screens the current universe, flags VCP-tight names, writes `docs/index.html`. |
 | `backtest_stage2.py` | Walk-forward backtest over a date range you supply. `--vcp-only` requires VCP tightness on top of Stage 2 before entering. Writes `docs/backtest_report.html`. |
 | `fetch_universe.py` | Optional — pulls the official NSE Midcap150/Smallcap250 constituent CSVs directly. Run locally if you want exact index membership instead of the Chartink market-cap-band approach. |
@@ -97,6 +98,40 @@ spot-checking the first few flagged names against actual charts.
 Tunable at the top of `vcp_detector.py`: `ZIGZAG_MIN_PCT` (swing size to
 count as a pivot), `LEG_TOLERANCE` (how strictly legs must shrink),
 `VOL_DRYUP_RATIO`, `ATR_TIGHT_RATIO`.
+
+## Episodic pivot scanner — what it actually checks
+
+Independent of the Stage 2 screen (doesn't require the stock to be in a
+Stage 2 uptrend first) — scans the whole universe for this exact sequence:
+
+1. **Range expansion day** — single-day close-to-close gain > 6.5%,
+   somewhere in the last 30 trading days.
+2. **Volume confirmation** — that day's volume > 3x the 50-day EMA of
+   volume at the time.
+3. **Peak** — the high may print on the expansion day itself or anywhere
+   in the following 4 trading days; peak = the max high across that
+   whole window (not necessarily day 0).
+4. **Held the move** — from the peak onward, the **closing** price has
+   not fallen more than 20% below the peak high, at any point up to today.
+5. **Volume dry-up** — the 50-day EMA of volume (the smoothed line, not
+   raw daily volume) is in a steady decline from the peak to today.
+6. **Inside bar** — at least one day between the peak and today has its
+   entire high/low range contained inside the prior day's range. Any
+   such day within the window counts, not just the latest bar.
+
+All six conditions must hold for a hit. I validated this against
+engineered synthetic data before shipping it: a series built with an
+exact +8% expansion day at ~4x volume, a peak 3 days later, an inside
+bar right after, and steadily declining volume through a 20-day
+consolidation was caught with the exact right dates. A pure random walk
+with no engineered pattern produced zero hits. That's a logic-correctness
+check, not validation against real historical setups you'd recognize by
+eye — worth spot-checking the first batch of real hits against actual charts.
+
+Tunable at the top of `episodic_pivot_scanner.py`: `MIN_PCT_GAIN`,
+`VOL_MULTIPLE`, `PEAK_WINDOW_DAYS`, `MAX_DRAWDOWN_PCT`, and the
+`is_declining()` tolerance parameters if the volume dry-up check feels
+too strict or too loose in practice.
 
 ## Backtest — what it does and does not model
 
