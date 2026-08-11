@@ -108,30 +108,59 @@ Stage 2 uptrend first) — scans the whole universe for this exact sequence:
    somewhere in the last 30 trading days.
 2. **Volume confirmation** — that day's volume > 3x the 50-day EMA of
    volume at the time.
-3. **Peak** — the high may print on the expansion day itself or anywhere
+3. **(Toggle, off by default) Yearly-high volume** — expansion-day volume
+   must be the single highest daily volume in the trailing ~1 year
+   (252 trading days). Enable with `--require-yearly-high-volume`.
+4. **Peak** — the high may print on the expansion day itself or anywhere
    in the following 4 trading days; peak = the max high across that
    whole window (not necessarily day 0).
-4. **Held the move** — from the peak onward, the **closing** price has
-   not fallen more than 20% below the peak high, at any point up to today.
-5. **Volume dry-up** — the 50-day EMA of volume (the smoothed line, not
-   raw daily volume) is in a steady decline from the peak to today.
-6. **Inside bar** — at least one day between the peak and today has its
-   entire high/low range contained inside the prior day's range. Any
-   such day within the window counts, not just the latest bar.
+5. **Held the move** — from the peak onward, the **closing** price has
+   not fallen more than 20% below the peak high, at any point up to the
+   as-of date.
+6. **Volume dry-up** — the 50-day EMA of volume (the smoothed line, not
+   raw daily volume) is in a steady decline from the peak to the as-of date.
+7. **Inside bar with gap** — at least **5 trading days** after the
+   expansion day, some day has its entire high/low range contained
+   inside the prior day's range. The 5-day gap is enforced so the inside
+   bar reflects genuine post-move tightening, not noise right next to
+   the spike. Any qualifying day within the window counts.
 
-All six conditions must hold for a hit. I validated this against
-engineered synthetic data before shipping it: a series built with an
-exact +8% expansion day at ~4x volume, a peak 3 days later, an inside
-bar right after, and steadily declining volume through a 20-day
-consolidation was caught with the exact right dates. A pure random walk
-with no engineered pattern produced zero hits. That's a logic-correctness
-check, not validation against real historical setups you'd recognize by
-eye — worth spot-checking the first batch of real hits against actual charts.
+All conditions must hold for a hit. Results are sorted by volume multiple,
+descending.
+
+**Date-range replay (default: trailing 7 days).** Rather than only
+checking "today," the scanner replays the scan across each day in a
+window (default the last 7 calendar days) so a fresh signal isn't missed
+just because the scanner wasn't run on the exact day it first qualified.
+Hits are deduped by (symbol, expansion date) — if the same setup is
+detected on multiple days in the window, you get one row with
+`first_seen` / `last_seen` as-of dates, using the freshest snapshot's
+numbers. Use `--start`/`--end` for a custom historical range, or `--days N`
+to change the trailing window length:
+
+```bash
+python episodic_pivot_scanner.py                              # trailing 7 days, default
+python episodic_pivot_scanner.py --days 14                    # trailing 14 days
+python episodic_pivot_scanner.py --start 2024-01-01 --end 2024-03-31   # custom historical window
+python episodic_pivot_scanner.py --require-yearly-high-volume  # add the yearly-high filter
+```
+
+I validated the core logic against engineered synthetic data before
+shipping it: a series with an exact +8% expansion day at ~4x volume, a
+peak 3 days later, steadily declining volume through a 20-day
+consolidation, and a controllable gap to the inside bar. Confirmed: a
+3-day gap correctly fails (below the 5-day minimum), a 7-8 day gap
+correctly passes; the yearly-high-volume toggle correctly rejects a setup
+when an earlier day had bigger volume (toggle on) and correctly accepts
+the same setup with the toggle off; sort order by volume multiple is
+correct across multiple hits. A pure random walk with no engineered
+pattern produced zero hits. That's a logic-correctness check, not
+validation against real historical setups you'd recognize by eye —
+worth spot-checking the first batch of real hits against actual charts.
 
 Tunable at the top of `episodic_pivot_scanner.py`: `MIN_PCT_GAIN`,
-`VOL_MULTIPLE`, `PEAK_WINDOW_DAYS`, `MAX_DRAWDOWN_PCT`, and the
-`is_declining()` tolerance parameters if the volume dry-up check feels
-too strict or too loose in practice.
+`VOL_MULTIPLE`, `PEAK_WINDOW_DAYS`, `MAX_DRAWDOWN_PCT`, `MIN_GAP_DAYS`,
+`YEARLY_HIGH_VOLUME_WINDOW`, and the `is_declining()` tolerance parameters.
 
 ## Backtest — what it does and does not model
 
