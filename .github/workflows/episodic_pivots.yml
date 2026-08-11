@@ -1,0 +1,34 @@
+name: Episodic Pivot Scanner
+
+on:
+  schedule:
+    # 12:35 UTC = 18:05 IST, Mon-Fri (right after the main Stage 2 screen)
+    - cron: "35 12 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run episodic pivot scanner
+        run: python episodic_pivot_scanner.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/episodic_pivots.html docs/episodic_pivots.json
+          git diff --staged --quiet || git commit -m "Update episodic pivot scan results"
+          git push
