@@ -16,11 +16,9 @@ import config
 
 def fetch_full_history(symbol: str):
     try:
-        df = yf.download(
-            symbol,
+        df = yf.Ticker(symbol).history(
             period=f"{config.FULL_FETCH_MONTHS}mo",
             interval="1d",
-            progress=False,
             auto_adjust=True,
         )
     except Exception as e:
@@ -30,6 +28,10 @@ def fetch_full_history(symbol: str):
     min_days = config.MIN_WINDOW_MONTHS * config.TRADING_DAYS_PER_MONTH
     if df is None or df.empty or len(df) < min_days:
         return None
+
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+
     return df
 
 

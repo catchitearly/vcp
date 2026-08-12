@@ -16,11 +16,9 @@ import config
 
 def fetch_short_history(symbol: str):
     try:
-        df = yf.download(
-            symbol,
+        df = yf.Ticker(symbol).history(
             period=f"{config.EMA_PREFETCH_MONTHS}mo",
             interval="1d",
-            progress=False,
             auto_adjust=True,
         )
     except Exception as e:
@@ -29,6 +27,13 @@ def fetch_short_history(symbol: str):
 
     if df is None or df.empty or len(df) < config.EMA_PERIOD:
         return None
+
+    # yf.download() can return MultiIndex columns depending on version; Ticker().history()
+    # normally doesn't, but flatten defensively so downstream code never sees a DataFrame
+    # where it expects a Series.
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+
     return df
 
 
@@ -39,7 +44,7 @@ def passes_ema_filter(df: pd.DataFrame) -> bool:
 
 
 def passes_liquidity_filter(df: pd.DataFrame) -> bool:
-    avg_vol = df["Volume"].tail(20).mean()
+    avg_vol = float(df["Volume"].tail(20).mean())  # force scalar defensively
     return avg_vol >= config.MIN_AVG_VOLUME
 
 
