@@ -1,0 +1,30 @@
+name: Rounding Bottom Screener
+
+on:
+  schedule:
+    - cron: "30 4 * * 1"   # Monday 10:00 IST (04:30 UTC) -- weekly, pattern forms slowly
+  workflow_dispatch: {}     # allow manual trigger from the Actions tab
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run screener
+        run: python main.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "Screener run $(date -u +%Y-%m-%d)"
+          git push
