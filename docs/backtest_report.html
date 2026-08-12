@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stage 2 Backtest Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.32.0/plotly.min.js"></script>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:#0f1117; color:#e6e6e6; margin:0; padding:24px; }
+  h1 { font-size:1.4rem; margin-bottom:4px; }
+  .meta { color:#9aa0a6; font-size:0.85rem; margin-bottom:20px; }
+  .stats { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:24px; }
+  .stat-card { background:#1a1d24; border-radius:8px; padding:12px 16px; min-width:150px; }
+  .stat-card .label { color:#9aa0a6; font-size:0.75rem; text-transform:uppercase; }
+  .stat-card .value { font-size:1.3rem; font-weight:600; margin-top:4px; }
+  .value.pos { color:#4ade80; }
+  .value.neg { color:#f87171; }
+  #chart { margin-bottom:24px; }
+  table { border-collapse: collapse; width:100%; font-size:0.8rem; }
+  th, td { padding:6px 10px; text-align:left; border-bottom:1px solid #2a2d34; }
+  th { background:#1a1d24; position:sticky; top:0; }
+  .sel { color:#9aa0a6; }
+  .caveat { background:#241c1c; border-left:3px solid #f87171; padding:10px 14px; margin-bottom:20px; font-size:0.8rem; color:#d1a3a3; }
+  a { color:#7cb0ff; }
+</style>
+</head>
+<body>
+  <h1>Stage 2 Strategy Backtest &mdash; NSE Mid/Small Cap</h1>
+  <div class="meta">
+    2024-01-01 to 2025-12-31 &middot; 105 weekly rebalances &middot;
+    max 10 positions &middot; 0.0 bps cost/rebalance &middot;
+    <a href="index.html">&larr; Live screener</a>
+  </div>
+
+  <div class="caveat">
+    <strong>Read before trusting these numbers:</strong> this backtest uses today's universe.csv
+    applied retroactively (survivorship bias &mdash; delisted/dropped stocks won't appear as
+    candidates even though they were real options at the time), weekly granularity only,
+    and no
+    transaction cost assumption.
+  </div>
+
+  <div class="stats">
+    <div class="stat-card"><div class="label">Strategy Total Return</div>
+      <div class="value pos">69.31%</div></div>
+    <div class="stat-card"><div class="label">Benchmark Total Return</div>
+      <div class="value pos">28.98%</div></div>
+    <div class="stat-card"><div class="label">Strategy CAGR</div>
+      <div class="value pos">30.12%</div></div>
+    <div class="stat-card"><div class="label">Benchmark CAGR</div>
+      <div class="value pos">13.57%</div></div>
+    <div class="stat-card"><div class="label">Strategy Max Drawdown</div>
+      <div class="value neg">-32.66%</div></div>
+    <div class="stat-card"><div class="label">Benchmark Max Drawdown</div>
+      <div class="value neg">-26.52%</div></div>
+    <div class="stat-card"><div class="label">Weekly Win Rate</div>
+      <div class="value">56.2%</div></div>
+    <div class="stat-card"><div class="label">Avg Positions Held</div>
+      <div class="value">10.0</div></div>
+  </div>
+
+  <div id="chart" style="height:420px;"></div>
+
+  <table>
+    <thead>
+      <tr><th>Date</th><th>Positions</th><th>Period Return</th><th>Benchmark Return</th><th>Equity</th><th>Holdings</th></tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td>2024-01-01</td>
+          <td>10</td>
+          <td>4.02%</td>
+          <td>2.0%</td>
+          <td>1,040,197.12</td>
+          <td class="sel">JAIBALAJI, SUZLON, HBLENGINE, INOXWIND, ASHAPURMIN, RECLTD, NEWGEN, PREMEXPLN ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-01-08</td>
+          <td>10</td>
+          <td>5.1%</td>
+          <td>2.75%</td>
+          <td>1,093,225.22</td>
+          <td class="sel">JAIBALAJI, TARIL, POCL, APOLLO, INOXWIND, HSCL, SUZLON, NEWGEN ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-01-15</td>
+          <td>10</td>
+          <td>-0.05%</td>
+          <td>-0.21%</td>
+          <td>1,092,649.71</td>
+          <td class="sel">JAIBALAJI, POCL, SUZLON, HBLENGINE, INOXWIND, NEWGEN, TARC, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-01-22</td>
+          <td>10</td>
+          <td>6.02%</td>
+          <td>1.42%</td>
+          <td>1,158,466.6</td>
+          <td class="sel">JAIBALAJI, POCL, SKYGOLD, MANINDS, HBLENGINE, INOXWIND, RVNL, SUZLON ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-01-29</td>
+          <td>10</td>
+          <td>3.23%</td>
+          <td>2.24%</td>
+          <td>1,195,920.94</td>
+          <td class="sel">JAIBALAJI, IFCI, TARIL, POCL, PFS, HBLENGINE, INOXWIND, SUZLON ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-02-05</td>
+          <td>10</td>
+          <td>-7.32%</td>
+          <td>-3.22%</td>
+          <td>1,108,436.5</td>
+          <td class="sel">JAIBALAJI, ELECTCAST, IFCI, TARIL, POCL, MANINDS, WEBELSOLAR, INOXWIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-02-12</td>
+          <td>10</td>
+          <td>5.71%</td>
+          <td>4.97%</td>
+          <td>1,171,781.99</td>
+          <td class="sel">JAIBALAJI, IFCI, TARIL, POCL, KPIGREEN, WEBELSOLAR, HBLENGINE, INOXWIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-02-19</td>
+          <td>10</td>
+          <td>2.08%</td>
+          <td>0.46%</td>
+          <td>1,196,174.21</td>
+          <td class="sel">CUPID, JAIBALAJI, TARIL, POCL, WEBELSOLAR, MRPL, HBLENGINE, INOXWIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-02-26</td>
+          <td>10</td>
+          <td>-3.64%</td>
+          <td>-1.14%</td>
+          <td>1,152,670.29</td>
+          <td class="sel">CUPID, JAIBALAJI, HUDCO, TARIL, KPIGREEN, WEBELSOLAR, INOXWIND, ELECTCAST ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-03-04</td>
+          <td>10</td>
+          <td>-3.09%</td>
+          <td>-4.89%</td>
+          <td>1,117,013.72</td>
+          <td class="sel">CUPID, JAIBALAJI, TARIL, KPIGREEN, WEBELSOLAR, INOXWIND, ANANDRATHI, HUDCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-03-11</td>
+          <td>10</td>
+          <td>-9.75%</td>
+          <td>-4.37%</td>
+          <td>1,008,125.29</td>
+          <td class="sel">CUPID, JAIBALAJI, ANANDRATHI, TATAINVEST, TARIL, PVP, KPIGREEN, HUDCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-03-18</td>
+          <td>10</td>
+          <td>5.03%</td>
+          <td>2.08%</td>
+          <td>1,058,861.33</td>
+          <td class="sel">ANANDRATHI, TARIL, PVP, KPIGREEN, HUDCO, OFSS, COCHINSHIP, ACE ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-03-25</td>
+          <td>10</td>
+          <td>8.1%</td>
+          <td>3.76%</td>
+          <td>1,144,588.16</td>
+          <td class="sel">CUPID, PVP, KPIGREEN, WEBELSOLAR, ANANDRATHI, HUDCO, ELECTCAST, MRPL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-04-01</td>
+          <td>10</td>
+          <td>6.65%</td>
+          <td>4.28%</td>
+          <td>1,220,727.44</td>
+          <td class="sel">CUPID, ELECTCAST, TARIL, PVP, KPIGREEN, WEBELSOLAR, SCHNEIDER, ANANDRATHI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-04-08</td>
+          <td>10</td>
+          <td>0.52%</td>
+          <td>-2.37%</td>
+          <td>1,227,030.16</td>
+          <td class="sel">CUPID, TARIL, KPIGREEN, WEBELSOLAR, SCHNEIDER, COCHINSHIP, ELECTCAST, ANANDRATHI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-04-15</td>
+          <td>10</td>
+          <td>4.76%</td>
+          <td>2.8%</td>
+          <td>1,285,486.93</td>
+          <td class="sel">CUPID, ANANDRATHI, TARIL, KPIGREEN, WEBELSOLAR, ELECTCAST, INOXWIND, SCHNEIDER ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-04-22</td>
+          <td>10</td>
+          <td>5.06%</td>
+          <td>2.86%</td>
+          <td>1,350,504.4</td>
+          <td class="sel">TARIL, KPIGREEN, WEBELSOLAR, ELECTCAST, PREMEXPLN, INOXWIND, SCHNEIDER, ANANDRATHI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-04-29</td>
+          <td>10</td>
+          <td>-3.67%</td>
+          <td>-1.76%</td>
+          <td>1,300,904.11</td>
+          <td class="sel">JAIBALAJI, WEBELSOLAR, TARIL, KPIGREEN, INOXWIND, HUDCO, COCHINSHIP, ELECTCAST ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-05-06</td>
+          <td>10</td>
+          <td>-4.89%</td>
+          <td>-2.83%</td>
+          <td>1,237,308.11</td>
+          <td class="sel">WEBELSOLAR, TARIL, KPIGREEN, SCHNEIDER, HUDCO, COCHINSHIP, SHAKTIPUMP, INOXWIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-05-13</td>
+          <td>10</td>
+          <td>8.68%</td>
+          <td>4.21%</td>
+          <td>1,344,728.46</td>
+          <td class="sel">TARIL, KPIGREEN, WEBELSOLAR, SCHNEIDER, HUDCO, COCHINSHIP, SHAKTIPUMP, ANANDRATHI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-05-20</td>
+          <td>10</td>
+          <td>3.11%</td>
+          <td>-0.07%</td>
+          <td>1,386,597.69</td>
+          <td class="sel">TARIL, COCHINSHIP, KPIGREEN, SHAKTIPUMP, WEBELSOLAR, SCHNEIDER, HUDCO, IFCI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-05-27</td>
+          <td>10</td>
+          <td>0.67%</td>
+          <td>-0.4%</td>
+          <td>1,395,844.92</td>
+          <td class="sel">COCHINSHIP, TARIL, HUDCO, SHAKTIPUMP, WEBELSOLAR, IFCI, PREMEXPLN, KPIGREEN ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-06-03</td>
+          <td>10</td>
+          <td>-4.1%</td>
+          <td>3.01%</td>
+          <td>1,338,575.69</td>
+          <td class="sel">COCHINSHIP, TARIL, HUDCO, IFCI, PREMEXPLN, TECHNOE, JWL, SHAKTIPUMP ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-06-10</td>
+          <td>10</td>
+          <td>4.88%</td>
+          <td>3.93%</td>
+          <td>1,403,940.8</td>
+          <td class="sel">TARIL, COCHINSHIP, PREMEXPLN, WEBELSOLAR, HUDCO, IFCI, HERITGFOOD, SHAKTIPUMP ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-06-17</td>
+          <td>10</td>
+          <td>3.59%</td>
+          <td>2.12%</td>
+          <td>1,454,339.1</td>
+          <td class="sel">E2E, TARIL, COCHINSHIP, PREMEXPLN, WEBELSOLAR, HUDCO, IFCI, SHAKTIPUMP ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-06-24</td>
+          <td>10</td>
+          <td>-0.83%</td>
+          <td>1.55%</td>
+          <td>1,442,300.57</td>
+          <td class="sel">E2E, TARIL, COCHINSHIP, PREMEXPLN, SHAKTIPUMP, HUDCO, TECHNOE, PRESTIGE ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-07-01</td>
+          <td>10</td>
+          <td>10.37%</td>
+          <td>2.3%</td>
+          <td>1,591,835.93</td>
+          <td class="sel">TARIL, SHAKTIPUMP, COCHINSHIP, E2E, PREMEXPLN, GRSE, HUDCO, IFCI ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-07-08</td>
+          <td>10</td>
+          <td>-3.2%</td>
+          <td>0.72%</td>
+          <td>1,540,975.51</td>
+          <td class="sel">COCHINSHIP, SHAKTIPUMP, HUDCO, E2E, PREMEXPLN, TARIL, GRSE, MAZDOCK ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-07-15</td>
+          <td>10</td>
+          <td>-2.11%</td>
+          <td>-1.89%</td>
+          <td>1,508,532.8</td>
+          <td class="sel">COCHINSHIP, SHAKTIPUMP, RVNL, SKYGOLD, MARINE, E2E, PREMEXPLN, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-07-22</td>
+          <td>10</td>
+          <td>-0.69%</td>
+          <td>4.58%</td>
+          <td>1,498,072.99</td>
+          <td class="sel">COCHINSHIP, SHAKTIPUMP, RVNL, SKYGOLD, MARINE, E2E, TARIL, GRSE ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-07-29</td>
+          <td>10</td>
+          <td>-3.8%</td>
+          <td>-4.17%</td>
+          <td>1,441,115.22</td>
+          <td class="sel">SHAKTIPUMP, COCHINSHIP, RVNL, SKYGOLD, E2E, IFCI, TARIL, HUDCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-08-05</td>
+          <td>10</td>
+          <td>5.65%</td>
+          <td>2.91%</td>
+          <td>1,522,540.03</td>
+          <td class="sel">SHAKTIPUMP, COCHINSHIP, MARINE, E2E, HUBTOWN, V2RETAIL, WEBELSOLAR, RVNL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-08-12</td>
+          <td>10</td>
+          <td>1.44%</td>
+          <td>1.22%</td>
+          <td>1,544,439.74</td>
+          <td class="sel">WEL, SKYGOLD, MARINE, HUBTOWN, V2RETAIL, SHAKTIPUMP, WEBELSOLAR, HUDCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-08-19</td>
+          <td>10</td>
+          <td>4.34%</td>
+          <td>3.39%</td>
+          <td>1,611,518.03</td>
+          <td class="sel">SKYGOLD, V2RETAIL, E2E, WEL, HUBTOWN, SHAKTIPUMP, WEBELSOLAR, RVNL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-08-26</td>
+          <td>10</td>
+          <td>-0.27%</td>
+          <td>0.01%</td>
+          <td>1,607,238.58</td>
+          <td class="sel">E2E, V2RETAIL, SKYGOLD, WEL, HUBTOWN, POCL, SHAKTIPUMP, WEBELSOLAR ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-09-02</td>
+          <td>10</td>
+          <td>2.99%</td>
+          <td>0.09%</td>
+          <td>1,655,349.69</td>
+          <td class="sel">V2RETAIL, SKYGOLD, E2E, WEL, POCL, SHAKTIPUMP, WEBELSOLAR, RVNL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-09-09</td>
+          <td>10</td>
+          <td>-1.34%</td>
+          <td>2.54%</td>
+          <td>1,633,219.42</td>
+          <td class="sel">POCL, WEBELSOLAR, SKYGOLD, E2E, V2RETAIL, SPMLINFRA, GMRP&UI, MARINE ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-09-16</td>
+          <td>10</td>
+          <td>0.65%</td>
+          <td>-0.02%</td>
+          <td>1,643,865.33</td>
+          <td class="sel">V2RETAIL, WEBELSOLAR, SKYGOLD, E2E, WEL, REFEX, POCL, GODFRYPHLP ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-09-23</td>
+          <td>10</td>
+          <td>4.14%</td>
+          <td>-1.0%</td>
+          <td>1,711,995.12</td>
+          <td class="sel">E2E, V2RETAIL, SKYGOLD, WEL, REFEX, POCL, SPMLINFRA, WEBELSOLAR ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-09-30</td>
+          <td>10</td>
+          <td>-6.03%</td>
+          <td>-5.78%</td>
+          <td>1,608,799.2</td>
+          <td class="sel">E2E, V2RETAIL, SKYGOLD, WEL, HUBTOWN, REFEX, POCL, WEBELSOLAR ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-10-07</td>
+          <td>10</td>
+          <td>8.17%</td>
+          <td>5.28%</td>
+          <td>1,740,261.2</td>
+          <td class="sel">E2E, SKYGOLD, REFEX, POCL, IIFLCAPS, V2RETAIL, WEBELSOLAR, HUBTOWN ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-10-14</td>
+          <td>10</td>
+          <td>0.49%</td>
+          <td>-2.09%</td>
+          <td>1,748,783.65</td>
+          <td class="sel">E2E, V2RETAIL, SKYGOLD, WEL, REFEX, POCL, SHAKTIPUMP, WEBELSOLAR ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-10-21</td>
+          <td>10</td>
+          <td>-6.13%</td>
+          <td>-4.72%</td>
+          <td>1,641,547.17</td>
+          <td class="sel">E2E, SKYGOLD, REFEX, IIFLCAPS, V2RETAIL, WEBELSOLAR, NITCO, WEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-10-28</td>
+          <td>10</td>
+          <td>11.3%</td>
+          <td>3.65%</td>
+          <td>1,827,010.29</td>
+          <td class="sel">E2E, SKYGOLD, WEL, REFEX, SHAKTIPUMP, WEBELSOLAR, NITCO, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-11-04</td>
+          <td>10</td>
+          <td>-1.95%</td>
+          <td>-0.08%</td>
+          <td>1,791,381.78</td>
+          <td class="sel">E2E, WEBELSOLAR, WEL, REFEX, WOCKPHARMA, KITEX, SKYGOLD, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-11-11</td>
+          <td>10</td>
+          <td>-5.7%</td>
+          <td>-4.21%</td>
+          <td>1,689,272.12</td>
+          <td class="sel">E2E, WEL, REFEX, TARIL, WEBELSOLAR, KITEX, SKYGOLD, SHAKTIPUMP ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-11-18</td>
+          <td>10</td>
+          <td>7.28%</td>
+          <td>2.5%</td>
+          <td>1,812,297.37</td>
+          <td class="sel">E2E, SKYGOLD, REFEX, TARIL, WINDMACHIN, WEBELSOLAR, SHAKTIPUMP, PGEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-11-25</td>
+          <td>10</td>
+          <td>3.57%</td>
+          <td>4.77%</td>
+          <td>1,877,078.48</td>
+          <td class="sel">E2E, SKYGOLD, WINDMACHIN, V2RETAIL, WEBELSOLAR, PANACEABIO, KITEX, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-12-02</td>
+          <td>10</td>
+          <td>5.38%</td>
+          <td>3.59%</td>
+          <td>1,978,062.09</td>
+          <td class="sel">E2E, SKYGOLD, REFEX, WINDMACHIN, V2RETAIL, PGEL, WEBELSOLAR, PANACEABIO ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-12-09</td>
+          <td>10</td>
+          <td>7.3%</td>
+          <td>0.14%</td>
+          <td>2,122,548.91</td>
+          <td class="sel">REFEX, WINDMACHIN, SKYGOLD, E2E, V2RETAIL, PGEL, WEBELSOLAR, KITEX ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-12-16</td>
+          <td>10</td>
+          <td>-4.17%</td>
+          <td>-4.45%</td>
+          <td>2,033,936.88</td>
+          <td class="sel">WINDMACHIN, WEBELSOLAR, SKYGOLD, E2E, REFEX, V2RETAIL, SHAKTIPUMP, PGEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-12-23</td>
+          <td>10</td>
+          <td>-0.9%</td>
+          <td>-0.58%</td>
+          <td>2,015,685.24</td>
+          <td class="sel">PGEL, WEBELSOLAR, SKYGOLD, TARIL, WINDMACHIN, V2RETAIL, SHAKTIPUMP, KITEX ...</td>
+        </tr>
+
+        <tr>
+          <td>2024-12-30</td>
+          <td>10</td>
+          <td>1.99%</td>
+          <td>-0.45%</td>
+          <td>2,055,858.82</td>
+          <td class="sel">PGEL, WEBELSOLAR, SKYGOLD, TARIL, WINDMACHIN, V2RETAIL, SHAKTIPUMP, SHAILY ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-01-06</td>
+          <td>10</td>
+          <td>-7.26%</td>
+          <td>-6.98%</td>
+          <td>1,906,706.25</td>
+          <td class="sel">SHAKTIPUMP, WEBELSOLAR, TARIL, WINDMACHIN, V2RETAIL, PGEL, SHAILY, PANACEABIO ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-01-13</td>
+          <td>10</td>
+          <td>4.28%</td>
+          <td>5.22%</td>
+          <td>1,988,393.82</td>
+          <td class="sel">SHAKTIPUMP, WEBELSOLAR, INDOTHAI, SHAILY, V2RETAIL, PGEL, KITEX, TARIL ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-01-20</td>
+          <td>10</td>
+          <td>-11.31%</td>
+          <td>-8.8%</td>
+          <td>1,763,472.37</td>
+          <td class="sel">V2RETAIL, SHAKTIPUMP, WEBELSOLAR, INDOTHAI, SHAILY, WINDMACHIN, GOLDIAM, PGEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-01-27</td>
+          <td>10</td>
+          <td>1.29%</td>
+          <td>1.87%</td>
+          <td>1,786,211.74</td>
+          <td class="sel">V2RETAIL, SHAKTIPUMP, INDOTHAI, WEL, GOLDIAM, SALZERELEC, GREAVESCOT, ASHAPURMIN ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-02-03</td>
+          <td>10</td>
+          <td>-0.52%</td>
+          <td>-0.39%</td>
+          <td>1,776,956.95</td>
+          <td class="sel">V2RETAIL, GOLDIAM, INDOTHAI, WEL, CARTRADE, POKARNA, WOCKPHARMA, BLUEJET ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-02-10</td>
+          <td>10</td>
+          <td>-9.27%</td>
+          <td>-8.68%</td>
+          <td>1,612,279.3</td>
+          <td class="sel">WEL, V2RETAIL, INDOTHAI, GOLDIAM, WOCKPHARMA, BLUEJET, ACUTAAS, VIMTALABS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-02-17</td>
+          <td>10</td>
+          <td>-1.11%</td>
+          <td>0.44%</td>
+          <td>1,594,312.72</td>
+          <td class="sel">BLUEJET, PGIL, VIMTALABS, GREAVESCOT, SARDAEN, ACUTAAS, AARTIPHARM, CAMLINFINE ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-02-24</td>
+          <td>10</td>
+          <td>-4.14%</td>
+          <td>-6.47%</td>
+          <td>1,528,283.2</td>
+          <td class="sel">WEL, BLUEJET, ACUTAAS, SARDAEN, CAMLINFINE, AXISCADES, AVANTIFEED, AARTIPHARM ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-03-03</td>
+          <td>10</td>
+          <td>5.89%</td>
+          <td>4.64%</td>
+          <td>1,618,287.29</td>
+          <td class="sel">WEL, BLUEJET, CAMLINFINE, NH, AVANTIFEED, SRF, CHAMBLFERT, BLUESTARCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-03-10</td>
+          <td>10</td>
+          <td>-0.29%</td>
+          <td>-2.92%</td>
+          <td>1,613,531.17</td>
+          <td class="sel">PGEL, WEL, SARDAEN, BLUEJET, PGIL, PANACEABIO, ACUTAAS, VIMTALABS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-03-17</td>
+          <td>10</td>
+          <td>5.83%</td>
+          <td>10.2%</td>
+          <td>1,707,663.1</td>
+          <td class="sel">BLUEJET, PGEL, SARDAEN, VIMTALABS, PANACEABIO, CARTRADE, CAMLINFINE, AXISCADES ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-03-24</td>
+          <td>10</td>
+          <td>-3.63%</td>
+          <td>-3.76%</td>
+          <td>1,645,726.11</td>
+          <td class="sel">PGEL, BLUEJET, VIMTALABS, CARTRADE, PANACEABIO, WOCKPHARMA, SARDAEN, 63MOONS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-03-31</td>
+          <td>10</td>
+          <td>-13.15%</td>
+          <td>-4.37%</td>
+          <td>1,429,281.8</td>
+          <td class="sel">PGEL, PANACEABIO, BLUEJET, CARTRADE, SARDAEN, 63MOONS, VIMTALABS, WOCKPHARMA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-04-07</td>
+          <td>10</td>
+          <td>3.01%</td>
+          <td>4.01%</td>
+          <td>1,472,293.35</td>
+          <td class="sel">PANACEABIO, GRMOVER, CHAMBLFERT, NH, JASH, AXISCADES, COROMANDEL, HCG ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-04-14</td>
+          <td>10</td>
+          <td>6.68%</td>
+          <td>7.11%</td>
+          <td>1,570,668.24</td>
+          <td class="sel">NACLIND, PGEL, PANACEABIO, GRMOVER, KIRIINDUS, CHAMBLFERT, CAMLINFINE, NH ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-04-21</td>
+          <td>10</td>
+          <td>-0.81%</td>
+          <td>-1.51%</td>
+          <td>1,557,911.37</td>
+          <td class="sel">NACLIND, PGEL, GODFRYPHLP, SHAILY, V2RETAIL, PANACEABIO, GRMOVER, VIMTALABS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-04-28</td>
+          <td>10</td>
+          <td>0.56%</td>
+          <td>-0.57%</td>
+          <td>1,566,691.12</td>
+          <td class="sel">NACLIND, PGEL, PANACEABIO, GODFRYPHLP, GRMOVER, V2RETAIL, VIMTALABS, CARTRADE ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-05-05</td>
+          <td>10</td>
+          <td>-1.53%</td>
+          <td>1.54%</td>
+          <td>1,542,731.27</td>
+          <td class="sel">NACLIND, PANACEABIO, GODFRYPHLP, V2RETAIL, VIMTALABS, CARTRADE, PARADEEP, CHAMBLFERT ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-05-12</td>
+          <td>10</td>
+          <td>3.69%</td>
+          <td>6.43%</td>
+          <td>1,599,652.79</td>
+          <td class="sel">NACLIND, PANACEABIO, GODFRYPHLP, SHAILY, WINDMACHIN, PGEL, MAZDOCK, COROMANDEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-05-19</td>
+          <td>10</td>
+          <td>0.59%</td>
+          <td>0.79%</td>
+          <td>1,609,139.96</td>
+          <td class="sel">NACLIND, WINDMACHIN, PANACEABIO, MAZDOCK, GODFRYPHLP, PARADEEP, V2RETAIL, 63MOONS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-05-26</td>
+          <td>10</td>
+          <td>1.68%</td>
+          <td>1.5%</td>
+          <td>1,636,184.23</td>
+          <td class="sel">NACLIND, V2RETAIL, PANACEABIO, KITEX, MAZDOCK, SHAILY, PARADEEP, WINDMACHIN ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-06-02</td>
+          <td>10</td>
+          <td>-1.22%</td>
+          <td>2.66%</td>
+          <td>1,616,225.9</td>
+          <td class="sel">NACLIND, PARADEEP, KITEX, SHAILY, WINDMACHIN, RPOWER, CAMLINFINE, PANACEABIO ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-06-09</td>
+          <td>10</td>
+          <td>2.88%</td>
+          <td>-0.85%</td>
+          <td>1,662,851.06</td>
+          <td class="sel">GRSE, CAMLINFINE, KITEX, KRISHANA, LUMAXTECH, PARADEEP, WINDMACHIN, RPOWER ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-06-16</td>
+          <td>10</td>
+          <td>0.7%</td>
+          <td>-2.1%</td>
+          <td>1,674,508.52</td>
+          <td class="sel">KRISHANA, GRSE, CAMLINFINE, SUVEN, LUMAXTECH, PARADEEP, WINDMACHIN, RPOWER ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-06-23</td>
+          <td>10</td>
+          <td>-0.77%</td>
+          <td>4.1%</td>
+          <td>1,661,548.63</td>
+          <td class="sel">KRISHANA, CAMLINFINE, AXISCADES, AIIL, SUVEN, LUMAXTECH, PARADEEP, GRSE ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-06-30</td>
+          <td>10</td>
+          <td>-2.66%</td>
+          <td>0.08%</td>
+          <td>1,617,289.29</td>
+          <td class="sel">KRISHANA, CAMLINFINE, AXISCADES, SUVEN, LUMAXTECH, RPOWER, KITEX, INDIAGLYCO ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-07-07</td>
+          <td>10</td>
+          <td>4.21%</td>
+          <td>0.25%</td>
+          <td>1,685,306.79</td>
+          <td class="sel">SUVEN, NACLIND, CAMLINFINE, KRISHANA, LUMAXTECH, 63MOONS, GABRIEL, AXISCADES ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-07-14</td>
+          <td>10</td>
+          <td>1.29%</td>
+          <td>1.5%</td>
+          <td>1,707,025.23</td>
+          <td class="sel">NACLIND, CAMLINFINE, GABRIEL, SUVEN, KRISHANA, LUMAXTECH, 63MOONS, AXISCADES ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-07-21</td>
+          <td>10</td>
+          <td>-4.89%</td>
+          <td>-3.6%</td>
+          <td>1,623,507.23</td>
+          <td class="sel">SUVEN, LUMAXTECH, NACLIND, CAMLINFINE, CUPID, KRISHANA, 63MOONS, GABRIEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-07-28</td>
+          <td>10</td>
+          <td>3.89%</td>
+          <td>0.03%</td>
+          <td>1,686,685.74</td>
+          <td class="sel">SUVEN, KRISHANA, NACLIND, SMLMAH, CUPID, LUMAXTECH, 63MOONS, MANAKCOAT ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-08-04</td>
+          <td>10</td>
+          <td>-1.91%</td>
+          <td>-2.35%</td>
+          <td>1,654,454.43</td>
+          <td class="sel">KRISHANA, NACLIND, GALLANTT, SMLMAH, CUPID, LUMAXTECH, PARADEEP, MANAKCOAT ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-08-11</td>
+          <td>10</td>
+          <td>-1.29%</td>
+          <td>1.27%</td>
+          <td>1,633,134.69</td>
+          <td class="sel">KRISHANA, NACLIND, GALLANTT, SMLMAH, CUPID, PARADEEP, MANAKCOAT, GABRIEL ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-08-18</td>
+          <td>10</td>
+          <td>3.62%</td>
+          <td>1.7%</td>
+          <td>1,692,200.33</td>
+          <td class="sel">KRISHANA, NACLIND, GABRIEL, SMLMAH, CUPID, LUMAXTECH, PARADEEP, MANAKCOAT ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-08-25</td>
+          <td>10</td>
+          <td>2.19%</td>
+          <td>-1.3%</td>
+          <td>1,729,227.8</td>
+          <td class="sel">KRISHANA, NACLIND, GABRIEL, APOLLO, SMLMAH, CUPID, LUMAXTECH, PARADEEP ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-09-01</td>
+          <td>10</td>
+          <td>-2.66%</td>
+          <td>2.45%</td>
+          <td>1,683,249.48</td>
+          <td class="sel">KRISHANA, NACLIND, GABRIEL, APOLLO, SMLMAH, CUPID, IXIGO, LUMAXTECH ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-09-08</td>
+          <td>10</td>
+          <td>1.91%</td>
+          <td>1.67%</td>
+          <td>1,715,383.55</td>
+          <td class="sel">CUPID, GABRIEL, SMLMAH, IXIGO, KRISHANA, LUMAXTECH, VIMTALABS, CARTRADE ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-09-15</td>
+          <td>10</td>
+          <td>-1.02%</td>
+          <td>0.83%</td>
+          <td>1,697,817.72</td>
+          <td class="sel">CUPID, GABRIEL, APOLLO, SMLMAH, IXIGO, KRISHANA, VIMTALABS, JAYNECOIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-09-22</td>
+          <td>10</td>
+          <td>-2.31%</td>
+          <td>-4.08%</td>
+          <td>1,658,556.09</td>
+          <td class="sel">CUPID, GABRIEL, APOLLO, IXIGO, JAYNECOIND, TFCILTD, AXISCADES, BANCOINDIA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-09-29</td>
+          <td>10</td>
+          <td>3.18%</td>
+          <td>2.47%</td>
+          <td>1,711,376.75</td>
+          <td class="sel">CUPID, GABRIEL, APOLLO, GMDCLTD, LUMAXTECH, TFCILTD, AXISCADES, BANCOINDIA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-10-06</td>
+          <td>10</td>
+          <td>1.51%</td>
+          <td>-0.62%</td>
+          <td>1,737,219.47</td>
+          <td class="sel">CUPID, APOLLO, INDOTHAI, IXIGO, SIGMAADV, TFCILTD, GABRIEL, AXISCADES ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-10-13</td>
+          <td>10</td>
+          <td>0.2%</td>
+          <td>0.1%</td>
+          <td>1,740,666.81</td>
+          <td class="sel">CUPID, KRISHANA, APOLLO, WAAREEINDO, INDOTHAI, GMDCLTD, IXIGO, NETWEB ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-10-20</td>
+          <td>10</td>
+          <td>-2.8%</td>
+          <td>0.95%</td>
+          <td>1,691,935.69</td>
+          <td class="sel">CUPID, GABRIEL, APOLLO, WAAREEINDO, INDOTHAI, IXIGO, KRISHANA, PROZONER ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-10-27</td>
+          <td>10</td>
+          <td>-1.85%</td>
+          <td>0.96%</td>
+          <td>1,660,601.25</td>
+          <td class="sel">CUPID, GABRIEL, INDOTHAI, MCLEODRUSS, IXIGO, PROZONER, NETWEB, JAYNECOIND ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-11-03</td>
+          <td>10</td>
+          <td>-4.27%</td>
+          <td>-2.77%</td>
+          <td>1,589,773.0</td>
+          <td class="sel">CUPID, SIGMAADV, GABRIEL, INDOTHAI, MCLEODRUSS, HLEGLAS, PROZONER, NETWEB ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-11-10</td>
+          <td>10</td>
+          <td>2.8%</td>
+          <td>0.79%</td>
+          <td>1,634,239.21</td>
+          <td class="sel">CUPID, SIGMAADV, GABRIEL, INDOTHAI, LTF, GARUDA, LUMAXTECH, IMFA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-11-17</td>
+          <td>10</td>
+          <td>-4.6%</td>
+          <td>-4.0%</td>
+          <td>1,559,004.88</td>
+          <td class="sel">CUPID, LUMAXTECH, SIGMAADV, INDOTHAI, LTF, GARUDA, IMFA, CARTRADE ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-11-24</td>
+          <td>10</td>
+          <td>1.95%</td>
+          <td>1.09%</td>
+          <td>1,589,400.69</td>
+          <td class="sel">CUPID, LUMAXTECH, INDOTHAI, LTF, SKMEGGPROD, CARTRADE, TDPOWERSYS, ASHAPURMIN ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-12-01</td>
+          <td>10</td>
+          <td>-4.64%</td>
+          <td>-4.66%</td>
+          <td>1,515,682.4</td>
+          <td class="sel">CUPID, LUMAXTECH, INDOTHAI, LTF, GRMOVER, IMFA, CARTRADE, TDPOWERSYS ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-12-08</td>
+          <td>10</td>
+          <td>5.57%</td>
+          <td>2.97%</td>
+          <td>1,600,147.82</td>
+          <td class="sel">CUPID, LUMAXTECH, MCX, LTF, SKMEGGPROD, GRMOVER, SBC, IMFA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-12-15</td>
+          <td>10</td>
+          <td>2.68%</td>
+          <td>0.72%</td>
+          <td>1,643,009.03</td>
+          <td class="sel">CUPID, LUMAXTECH, AQYLON, LTF, SKMEGGPROD, IMFA, JAYNECOIND, YATRA ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-12-22</td>
+          <td>10</td>
+          <td>1.26%</td>
+          <td>-0.61%</td>
+          <td>1,663,683.92</td>
+          <td class="sel">CUPID, LUMAXTECH, AQYLON, IMFA, JAYNECOIND, YATRA, INFOBEAN, ASHAPURMIN ...</td>
+        </tr>
+
+        <tr>
+          <td>2025-12-29</td>
+          <td>10</td>
+          <td>1.77%</td>
+          <td>0.99%</td>
+          <td>1,693,090.03</td>
+          <td class="sel">CUPID, JAYNECOIND, INFOBEAN, ASHAPURMIN, HINDCOPPER, LUMAXTECH, GRMOVER, PFOCUS ...</td>
+        </tr>
+    </tbody>
+  </table>
+
+<script>
+  const dates = ["2024-01-01", "2024-01-08", "2024-01-15", "2024-01-22", "2024-01-29", "2024-02-05", "2024-02-12", "2024-02-19", "2024-02-26", "2024-03-04", "2024-03-11", "2024-03-18", "2024-03-25", "2024-04-01", "2024-04-08", "2024-04-15", "2024-04-22", "2024-04-29", "2024-05-06", "2024-05-13", "2024-05-20", "2024-05-27", "2024-06-03", "2024-06-10", "2024-06-17", "2024-06-24", "2024-07-01", "2024-07-08", "2024-07-15", "2024-07-22", "2024-07-29", "2024-08-05", "2024-08-12", "2024-08-19", "2024-08-26", "2024-09-02", "2024-09-09", "2024-09-16", "2024-09-23", "2024-09-30", "2024-10-07", "2024-10-14", "2024-10-21", "2024-10-28", "2024-11-04", "2024-11-11", "2024-11-18", "2024-11-25", "2024-12-02", "2024-12-09", "2024-12-16", "2024-12-23", "2024-12-30", "2025-01-06", "2025-01-13", "2025-01-20", "2025-01-27", "2025-02-03", "2025-02-10", "2025-02-17", "2025-02-24", "2025-03-03", "2025-03-10", "2025-03-17", "2025-03-24", "2025-03-31", "2025-04-07", "2025-04-14", "2025-04-21", "2025-04-28", "2025-05-05", "2025-05-12", "2025-05-19", "2025-05-26", "2025-06-02", "2025-06-09", "2025-06-16", "2025-06-23", "2025-06-30", "2025-07-07", "2025-07-14", "2025-07-21", "2025-07-28", "2025-08-04", "2025-08-11", "2025-08-18", "2025-08-25", "2025-09-01", "2025-09-08", "2025-09-15", "2025-09-22", "2025-09-29", "2025-10-06", "2025-10-13", "2025-10-20", "2025-10-27", "2025-11-03", "2025-11-10", "2025-11-17", "2025-11-24", "2025-12-01", "2025-12-08", "2025-12-15", "2025-12-22", "2025-12-29", "2025-12-31"];
+  const strat = [1000000.0, 1040197.12, 1093225.22, 1092649.71, 1158466.6, 1195920.94, 1108436.5, 1171781.99, 1196174.21, 1152670.29, 1117013.72, 1008125.29, 1058861.33, 1144588.16, 1220727.44, 1227030.16, 1285486.93, 1350504.4, 1300904.11, 1237308.11, 1344728.46, 1386597.69, 1395844.92, 1338575.69, 1403940.8, 1454339.1, 1442300.57, 1591835.93, 1540975.51, 1508532.8, 1498072.99, 1441115.22, 1522540.03, 1544439.74, 1611518.03, 1607238.58, 1655349.69, 1633219.42, 1643865.33, 1711995.12, 1608799.2, 1740261.2, 1748783.65, 1641547.17, 1827010.29, 1791381.78, 1689272.12, 1812297.37, 1877078.48, 1978062.09, 2122548.91, 2033936.88, 2015685.24, 2055858.82, 1906706.25, 1988393.82, 1763472.37, 1786211.74, 1776956.95, 1612279.3, 1594312.72, 1528283.2, 1618287.29, 1613531.17, 1707663.1, 1645726.11, 1429281.8, 1472293.35, 1570668.24, 1557911.37, 1566691.12, 1542731.27, 1599652.79, 1609139.96, 1636184.23, 1616225.9, 1662851.06, 1674508.52, 1661548.63, 1617289.29, 1685306.79, 1707025.23, 1623507.23, 1686685.74, 1654454.43, 1633134.69, 1692200.33, 1729227.8, 1683249.48, 1715383.55, 1697817.72, 1658556.09, 1711376.75, 1737219.47, 1740666.81, 1691935.69, 1660601.25, 1589773.0, 1634239.21, 1559004.88, 1589400.69, 1515682.4, 1600147.82, 1643009.03, 1663683.92, 1693090.03];
+  const bench = [1000000.0, 1019988.83, 1048052.15, 1045890.98, 1060731.52, 1084518.85, 1049580.18, 1101699.87, 1106728.18, 1094134.63, 1040633.98, 995186.1, 1015933.54, 1054112.77, 1099278.51, 1073267.61, 1103371.4, 1134874.89, 1114900.28, 1083386.89, 1128966.72, 1128192.28, 1123685.13, 1157458.63, 1202970.32, 1228474.69, 1247518.17, 1276218.26, 1285470.41, 1261156.42, 1318864.74, 1263821.01, 1300553.18, 1316430.92, 1361040.38, 1361156.71, 1362408.9, 1396964.24, 1396687.66, 1382743.23, 1302824.99, 1371570.34, 1342885.63, 1279458.77, 1326117.38, 1325085.34, 1269270.78, 1300940.55, 1362953.38, 1411906.41, 1413859.98, 1350876.45, 1342995.82, 1336948.86, 1243589.46, 1308467.83, 1193341.87, 1215672.59, 1210984.63, 1105893.38, 1110737.02, 1038850.89, 1087013.77, 1055227.99, 1162907.39, 1119212.54, 1070338.2, 1113214.55, 1192346.31, 1174371.81, 1167637.2, 1185642.77, 1261832.61, 1271862.32, 1290920.2, 1325203.49, 1313982.27, 1286446.99, 1339153.59, 1340237.13, 1343583.66, 1363695.09, 1314625.45, 1315080.72, 1284202.8, 1300545.06, 1322598.62, 1305462.05, 1337469.83, 1359851.71, 1371079.14, 1315136.79, 1347564.78, 1339251.08, 1340625.32, 1353329.81, 1366350.33, 1328489.72, 1339050.77, 1285469.36, 1299528.23, 1238926.18, 1275675.0, 1284902.3, 1277092.21, 1289780.05];
+
+  Plotly.newPlot('chart', [
+    { x: dates, y: strat, name: 'Stage 2 Strategy', type: 'scatter', mode: 'lines', line: {color:'#4ade80', width:2} },
+    { x: dates, y: bench, name: 'Benchmark (equal-weight universe)', type: 'scatter', mode: 'lines', line: {color:'#7cb0ff', width:2, dash:'dot'} }
+  ], {
+    paper_bgcolor: '#0f1117', plot_bgcolor: '#0f1117',
+    font: { color: '#e6e6e6' },
+    margin: { t: 20, r: 20, l: 50, b: 40 },
+    xaxis: { gridcolor: '#2a2d34' },
+    yaxis: { gridcolor: '#2a2d34', title: 'Equity (Rs)' },
+    legend: { orientation: 'h', y: -0.2 }
+  }, { responsive: true });
+</script>
+</body>
+</html>
