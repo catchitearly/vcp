@@ -1,0 +1,2 @@
+symbol,window_months,r2_price,trough_date,days_since_trough,residual_noise,obv_slope,obv_r2,obv_decline_slope,last_close,ema50,score
+SBC,5.5,0.931,2026-06-15,87,0.0549,29505.6,0.835,-6298.1,5.16,4.58,0.7777
