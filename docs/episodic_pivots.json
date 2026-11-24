@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T20:53:02.006764",
-  "replay_start": "2026-11-11",
-  "replay_end": "2026-11-18",
+  "generated_at": "2026-11-24T00:17:32.912395",
+  "replay_start": "2026-11-17",
+  "replay_end": "2026-11-24",
   "require_yearly_high_volume": false,
   "universe_size": 1032,
-  "hits_count": 131,
+  "hits_count": 154,
   "results": [
     {
       "symbol": "JAICORPLTD",
@@ -12,14 +12,14 @@
       "expansion_pct_gain": 10.68,
       "expansion_close": 95.34,
       "expansion_volume": 97902013,
-      "volume_ema50_at_expansion": 4211502,
+      "volume_ema50_at_expansion": 4211565,
       "volume_multiple": 23.25,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 101.95,
       "max_drawdown_from_peak_close_pct": 15.49,
-      "current_close": 90.29,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-11-02"
@@ -27,36 +27,8 @@
       "latest_inside_bar_date": "2026-11-02",
       "name": "Jai Corp Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "RSYSTEMS",
-      "expansion_date": "2026-09-28",
-      "expansion_pct_gain": 16.8,
-      "expansion_close": 267.34,
-      "expansion_volume": 61311130,
-      "volume_ema50_at_expansion": 2687354,
-      "volume_multiple": 22.81,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-29",
-      "peak_high": 297.23,
-      "max_drawdown_from_peak_close_pct": 18.3,
-      "current_close": 261.85,
-      "as_of_date": "2026-11-11",
-      "inside_bar_dates": [
-        "2026-10-12",
-        "2026-10-16",
-        "2026-10-27",
-        "2026-10-29",
-        "2026-11-03",
-        "2026-11-05"
-      ],
-      "latest_inside_bar_date": "2026-11-05",
-      "name": "R Systems International Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-11"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "PLATIND",
@@ -64,14 +36,14 @@
       "expansion_pct_gain": 11.62,
       "expansion_close": 228.06,
       "expansion_volume": 9734011,
-      "volume_ema50_at_expansion": 450872,
+      "volume_ema50_at_expansion": 450870,
       "volume_multiple": 21.59,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-22",
       "peak_high": 246.49,
       "max_drawdown_from_peak_close_pct": 14.32,
-      "current_close": 213.09,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-06",
         "2026-11-13"
@@ -79,8 +51,31 @@
       "latest_inside_bar_date": "2026-11-13",
       "name": "Platinum Industries Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "PDSL",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 11.85,
+      "expansion_close": 399.93,
+      "expansion_volume": 13834923,
+      "volume_ema50_at_expansion": 670531,
+      "volume_multiple": 20.63,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 424.9,
+      "max_drawdown_from_peak_close_pct": 4.66,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "PDS Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "INDIACEM",
@@ -88,22 +83,22 @@
       "expansion_pct_gain": 12.04,
       "expansion_close": 329.8,
       "expansion_volume": 28533954,
-      "volume_ema50_at_expansion": 1412525,
+      "volume_ema50_at_expansion": 1412531,
       "volume_multiple": 20.2,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-22",
       "peak_high": 358.8,
       "max_drawdown_from_peak_close_pct": 16.32,
-      "current_close": 321.5,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "The India Cements Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TRIDENT",
@@ -111,45 +106,23 @@
       "expansion_pct_gain": 7.11,
       "expansion_close": 23.79,
       "expansion_volume": 274007383,
-      "volume_ema50_at_expansion": 14225487,
+      "volume_ema50_at_expansion": 14225488,
       "volume_multiple": 19.26,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-03",
       "peak_high": 25.19,
-      "max_drawdown_from_peak_close_pct": 7.3,
-      "current_close": 23.54,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 7.66,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Trident Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "ITI",
-      "expansion_date": "2026-11-02",
-      "expansion_pct_gain": 20.0,
-      "expansion_close": 259.14,
-      "expansion_volume": 17199121,
-      "volume_ema50_at_expansion": 925284,
-      "volume_multiple": 18.59,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-11-03",
-      "peak_high": 279.99,
-      "max_drawdown_from_peak_close_pct": 11.34,
-      "current_close": 251.01,
-      "as_of_date": "2026-11-12",
-      "inside_bar_dates": [
-        "2026-11-12"
-      ],
-      "latest_inside_bar_date": "2026-11-12",
-      "name": "Iti Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-12"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "EUROPRATIK",
@@ -157,14 +130,14 @@
       "expansion_pct_gain": 13.8,
       "expansion_close": 183.37,
       "expansion_volume": 15067182,
-      "volume_ema50_at_expansion": 814417,
+      "volume_ema50_at_expansion": 814418,
       "volume_multiple": 18.5,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 202.5,
       "max_drawdown_from_peak_close_pct": 17.5,
-      "current_close": 190.82,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-11-09"
@@ -172,8 +145,31 @@
       "latest_inside_bar_date": "2026-11-09",
       "name": "Euro Pratik Sales Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "SALZERELEC",
+      "expansion_date": "2026-11-09",
+      "expansion_pct_gain": 15.95,
+      "expansion_close": 552.35,
+      "expansion_volume": 2875497,
+      "volume_ema50_at_expansion": 156317,
+      "volume_multiple": 18.4,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-13",
+      "peak_high": 574.7,
+      "max_drawdown_from_peak_close_pct": 7.53,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Salzer Electronics Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TARC",
@@ -181,14 +177,14 @@
       "expansion_pct_gain": 10.82,
       "expansion_close": 125.18,
       "expansion_volume": 33545126,
-      "volume_ema50_at_expansion": 1859115,
+      "volume_ema50_at_expansion": 1859130,
       "volume_multiple": 18.04,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 139.4,
-      "max_drawdown_from_peak_close_pct": 11.04,
-      "current_close": 124.01,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 12.29,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -196,7 +192,7 @@
       "name": "Tarc Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SHRINGARMS",
@@ -204,51 +200,45 @@
       "expansion_pct_gain": 17.15,
       "expansion_close": 310.85,
       "expansion_volume": 62801571,
-      "volume_ema50_at_expansion": 3482385,
+      "volume_ema50_at_expansion": 3482392,
       "volume_multiple": 18.03,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 335.48,
-      "max_drawdown_from_peak_close_pct": 18.44,
-      "current_close": 284.4,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 19.68,
+      "current_close": 269.45,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-30"
       ],
       "latest_inside_bar_date": "2026-10-30",
       "name": "Shringar House of Mangalsutra Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
-      "symbol": "TVSELECT",
-      "expansion_date": "2026-09-30",
-      "expansion_pct_gain": 11.18,
-      "expansion_close": 416.15,
-      "expansion_volume": 2795681,
-      "volume_ema50_at_expansion": 155299,
-      "volume_multiple": 18.0,
+      "symbol": "TALBROAUTO",
+      "expansion_date": "2026-11-11",
+      "expansion_pct_gain": 7.51,
+      "expansion_close": 418.19,
+      "expansion_volume": 11373038,
+      "volume_ema50_at_expansion": 633177,
+      "volume_multiple": 17.96,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-30",
-      "peak_high": 440.55,
-      "max_drawdown_from_peak_close_pct": 17.46,
-      "current_close": 391.65,
-      "as_of_date": "2026-11-13",
+      "peak_date": "2026-11-11",
+      "peak_high": 456.66,
+      "max_drawdown_from_peak_close_pct": 11.83,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-10-19",
-        "2026-10-26",
-        "2026-10-27",
-        "2026-10-29",
-        "2026-11-03",
-        "2026-11-09",
-        "2026-11-12"
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-12",
-      "name": "Tvs Electronics Limited",
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Talbros Automotive Components Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-15"
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "IXIGO",
@@ -256,23 +246,24 @@
       "expansion_pct_gain": 8.74,
       "expansion_close": 157.08,
       "expansion_volume": 82217500,
-      "volume_ema50_at_expansion": 4652002,
+      "volume_ema50_at_expansion": 4652027,
       "volume_multiple": 17.67,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 165.99,
       "max_drawdown_from_peak_close_pct": 16.2,
-      "current_close": 175.61,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-11",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Le Travenues Technology Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "HARIOMPIPE",
@@ -280,22 +271,22 @@
       "expansion_pct_gain": 11.36,
       "expansion_close": 376.5,
       "expansion_volume": 6009022,
-      "volume_ema50_at_expansion": 344661,
+      "volume_ema50_at_expansion": 344667,
       "volume_multiple": 17.43,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 396.0,
-      "max_drawdown_from_peak_close_pct": 9.68,
-      "current_close": 357.65,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 12.89,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Hariom Pipe Industries Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "VGUARD",
@@ -303,22 +294,22 @@
       "expansion_pct_gain": 7.9,
       "expansion_close": 284.85,
       "expansion_volume": 27366811,
-      "volume_ema50_at_expansion": 1613788,
+      "volume_ema50_at_expansion": 1613771,
       "volume_multiple": 16.96,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
       "peak_high": 294.0,
       "max_drawdown_from_peak_close_pct": 4.93,
-      "current_close": 296.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11"
       ],
       "latest_inside_bar_date": "2026-11-11",
       "name": "V-guard Industries Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "IRMENERGY",
@@ -326,14 +317,14 @@
       "expansion_pct_gain": 9.03,
       "expansion_close": 262.7,
       "expansion_volume": 6161495,
-      "volume_ema50_at_expansion": 369522,
+      "volume_ema50_at_expansion": 369520,
       "volume_multiple": 16.67,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 284.4,
-      "max_drawdown_from_peak_close_pct": 11.65,
-      "current_close": 253.03,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 13.07,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -341,31 +332,55 @@
       "name": "IRM Energy Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
-      "symbol": "RITES",
-      "expansion_date": "2026-09-30",
-      "expansion_pct_gain": 8.7,
-      "expansion_close": 207.03,
-      "expansion_volume": 50416237,
-      "volume_ema50_at_expansion": 3140241,
-      "volume_multiple": 16.05,
+      "symbol": "KITEX",
+      "expansion_date": "2026-11-03",
+      "expansion_pct_gain": 15.08,
+      "expansion_close": 133.23,
+      "expansion_volume": 19652842,
+      "volume_ema50_at_expansion": 1207015,
+      "volume_multiple": 16.28,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-30",
-      "peak_high": 216.79,
-      "max_drawdown_from_peak_close_pct": 13.99,
-      "current_close": 195.52,
-      "as_of_date": "2026-11-13",
+      "peak_date": "2026-11-05",
+      "peak_high": 146.97,
+      "max_drawdown_from_peak_close_pct": 12.24,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-10-16",
-        "2026-10-28"
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-10-28",
-      "name": "Rites Ltd",
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Kitex Garments Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-15"
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "ROTO",
+      "expansion_date": "2026-11-12",
+      "expansion_pct_gain": 14.46,
+      "expansion_close": 76.96,
+      "expansion_volume": 23188695,
+      "volume_ema50_at_expansion": 1432281,
+      "volume_multiple": 16.19,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 79.9,
+      "max_drawdown_from_peak_close_pct": 11.71,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Roto Pumps Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-23",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "5PAISA",
@@ -373,8 +388,8 @@
       "expansion_pct_gain": 14.08,
       "expansion_close": 360.9,
       "expansion_volume": 2189848,
-      "volume_ema50_at_expansion": 136723,
-      "volume_multiple": 16.02,
+      "volume_ema50_at_expansion": 136743,
+      "volume_multiple": 16.01,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-05",
       "peak_high": 379.6,
@@ -392,8 +407,8 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "5Paisa Capital Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-17"
     },
     {
       "symbol": "SAREGAMA",
@@ -401,47 +416,22 @@
       "expansion_pct_gain": 13.27,
       "expansion_close": 636.8,
       "expansion_volume": 21255680,
-      "volume_ema50_at_expansion": 1346044,
+      "volume_ema50_at_expansion": 1346045,
       "volume_multiple": 15.79,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 671.0,
       "max_drawdown_from_peak_close_pct": 7.65,
-      "current_close": 674.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Saregama India Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "SUNTV",
-      "expansion_date": "2026-09-30",
-      "expansion_pct_gain": 9.35,
-      "expansion_close": 601.23,
-      "expansion_volume": 34672457,
-      "volume_ema50_at_expansion": 2216519,
-      "volume_multiple": 15.64,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-30",
-      "peak_high": 659.76,
-      "max_drawdown_from_peak_close_pct": 13.83,
-      "current_close": 646.7,
-      "as_of_date": "2026-11-13",
-      "inside_bar_dates": [
-        "2026-10-16",
-        "2026-10-28",
-        "2026-11-13"
-      ],
-      "latest_inside_bar_date": "2026-11-13",
-      "name": "Sun Tv Network Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-15"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "VIKRAN",
@@ -449,22 +439,22 @@
       "expansion_pct_gain": 12.76,
       "expansion_close": 62.76,
       "expansion_volume": 83031461,
-      "volume_ema50_at_expansion": 5608029,
+      "volume_ema50_at_expansion": 5608104,
       "volume_multiple": 14.81,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-13",
       "peak_high": 64.99,
       "max_drawdown_from_peak_close_pct": 19.57,
-      "current_close": 53.14,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "Vikran Engineering Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "VASCONEQ",
@@ -472,14 +462,14 @@
       "expansion_pct_gain": 11.17,
       "expansion_close": 33.53,
       "expansion_volume": 20015023,
-      "volume_ema50_at_expansion": 1359134,
+      "volume_ema50_at_expansion": 1358946,
       "volume_multiple": 14.73,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-16",
       "peak_high": 34.26,
       "max_drawdown_from_peak_close_pct": 15.06,
-      "current_close": 31.05,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-11-11",
@@ -488,8 +478,8 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "Vascon Engineers Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "PPLPHARMA",
@@ -497,14 +487,14 @@
       "expansion_pct_gain": 17.15,
       "expansion_close": 232.8,
       "expansion_volume": 118072228,
-      "volume_ema50_at_expansion": 8089780,
+      "volume_ema50_at_expansion": 8089761,
       "volume_multiple": 14.6,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-02",
       "peak_high": 243.2,
       "max_drawdown_from_peak_close_pct": 3.91,
-      "current_close": 240.7,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11",
         "2026-11-17"
@@ -512,8 +502,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Piramal Pharma Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ORIENTELEC",
@@ -521,50 +511,22 @@
       "expansion_pct_gain": 13.39,
       "expansion_close": 197.14,
       "expansion_volume": 10829446,
-      "volume_ema50_at_expansion": 742717,
+      "volume_ema50_at_expansion": 742755,
       "volume_multiple": 14.58,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-16",
       "peak_high": 215.0,
       "max_drawdown_from_peak_close_pct": 15.99,
-      "current_close": 201.84,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28"
       ],
       "latest_inside_bar_date": "2026-10-28",
       "name": "Orient Electric Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "ESTER",
-      "expansion_date": "2026-09-30",
-      "expansion_pct_gain": 19.72,
-      "expansion_close": 101.22,
-      "expansion_volume": 3656608,
-      "volume_ema50_at_expansion": 250980,
-      "volume_multiple": 14.57,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-01",
-      "peak_high": 104.8,
-      "max_drawdown_from_peak_close_pct": 19.26,
-      "current_close": 88.85,
-      "as_of_date": "2026-11-13",
-      "inside_bar_dates": [
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-14",
-        "2026-10-28",
-        "2026-11-02",
-        "2026-11-04"
-      ],
-      "latest_inside_bar_date": "2026-11-04",
-      "name": "Ester Industries Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-15"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "CELLO",
@@ -572,14 +534,14 @@
       "expansion_pct_gain": 8.56,
       "expansion_close": 369.15,
       "expansion_volume": 20298731,
-      "volume_ema50_at_expansion": 1415774,
+      "volume_ema50_at_expansion": 1415778,
       "volume_multiple": 14.34,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-07",
       "peak_high": 398.0,
       "max_drawdown_from_peak_close_pct": 17.66,
-      "current_close": 363.0,
-      "as_of_date": "2026-11-17",
+      "current_close": 360.7,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-16",
         "2026-10-19",
@@ -588,7 +550,7 @@
       "latest_inside_bar_date": "2026-11-09",
       "name": "Cello World Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -597,22 +559,46 @@
       "expansion_pct_gain": 13.78,
       "expansion_close": 1589.8,
       "expansion_volume": 7803594,
-      "volume_ema50_at_expansion": 548322,
+      "volume_ema50_at_expansion": 548319,
       "volume_multiple": 14.23,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 1642.9,
       "max_drawdown_from_peak_close_pct": 5.16,
-      "current_close": 1580.8,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "OneSource Specialty Pharma Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "SPARC",
+      "expansion_date": "2026-11-09",
+      "expansion_pct_gain": 8.93,
+      "expansion_close": 210.8,
+      "expansion_volume": 30874820,
+      "volume_ema50_at_expansion": 2253844,
+      "volume_multiple": 13.7,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-09",
+      "peak_high": 219.49,
+      "max_drawdown_from_peak_close_pct": 13.38,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Sun Pharma Advanced Research Company Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "BSOFT",
@@ -620,22 +606,22 @@
       "expansion_pct_gain": 11.89,
       "expansion_close": 339.28,
       "expansion_volume": 63392961,
-      "volume_ema50_at_expansion": 4740168,
+      "volume_ema50_at_expansion": 4740193,
       "volume_multiple": 13.37,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
       "peak_high": 348.69,
-      "max_drawdown_from_peak_close_pct": 12.73,
-      "current_close": 304.3,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 14.29,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "Birlasoft Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "JISLJALEQS",
@@ -643,50 +629,22 @@
       "expansion_pct_gain": 19.87,
       "expansion_close": 28.47,
       "expansion_volume": 127834749,
-      "volume_ema50_at_expansion": 9850808,
+      "volume_ema50_at_expansion": 9850777,
       "volume_multiple": 12.98,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 30.24,
-      "max_drawdown_from_peak_close_pct": 12.83,
-      "current_close": 26.36,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 16.04,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11"
       ],
       "latest_inside_bar_date": "2026-11-11",
       "name": "Jain Irrigation Systems Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "RSYSTEMS",
-      "expansion_date": "2026-09-29",
-      "expansion_pct_gain": 8.53,
-      "expansion_close": 290.15,
-      "expansion_volume": 67292815,
-      "volume_ema50_at_expansion": 5220902,
-      "volume_multiple": 12.89,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-29",
-      "peak_high": 297.23,
-      "max_drawdown_from_peak_close_pct": 18.3,
-      "current_close": 258.35,
-      "as_of_date": "2026-11-12",
-      "inside_bar_dates": [
-        "2026-10-12",
-        "2026-10-16",
-        "2026-10-27",
-        "2026-10-29",
-        "2026-11-03",
-        "2026-11-05"
-      ],
-      "latest_inside_bar_date": "2026-11-05",
-      "name": "R Systems International Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-12"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "KRBL",
@@ -694,22 +652,22 @@
       "expansion_pct_gain": 10.59,
       "expansion_close": 401.45,
       "expansion_volume": 11717862,
-      "volume_ema50_at_expansion": 909875,
+      "volume_ema50_at_expansion": 909878,
       "volume_multiple": 12.88,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 419.0,
       "max_drawdown_from_peak_close_pct": 3.32,
-      "current_close": 412.95,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-16"
       ],
       "latest_inside_bar_date": "2026-11-16",
       "name": "Krbl Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GMDCLTD",
@@ -717,22 +675,22 @@
       "expansion_pct_gain": 10.24,
       "expansion_close": 469.2,
       "expansion_volume": 26124029,
-      "volume_ema50_at_expansion": 2040728,
+      "volume_ema50_at_expansion": 2040719,
       "volume_multiple": 12.8,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 507.0,
-      "max_drawdown_from_peak_close_pct": 7.34,
-      "current_close": 469.8,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.82,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Gujarat Mineral Development Corporation Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "IGIL",
@@ -740,22 +698,23 @@
       "expansion_pct_gain": 7.91,
       "expansion_close": 381.15,
       "expansion_volume": 20608368,
-      "volume_ema50_at_expansion": 1611195,
+      "volume_ema50_at_expansion": 1611210,
       "volume_multiple": 12.79,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-27",
       "peak_high": 419.0,
       "max_drawdown_from_peak_close_pct": 6.31,
-      "current_close": 450.6,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-04",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "International Gemmological Institute (India) Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GANESHCP",
@@ -763,14 +722,14 @@
       "expansion_pct_gain": 8.48,
       "expansion_close": 168.62,
       "expansion_volume": 4615159,
-      "volume_ema50_at_expansion": 361508,
+      "volume_ema50_at_expansion": 361485,
       "volume_multiple": 12.77,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 172.53,
       "max_drawdown_from_peak_close_pct": 11.36,
-      "current_close": 179.68,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-11-12",
@@ -779,8 +738,31 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "Ganesh Consumer Products Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "SAILIFE",
+      "expansion_date": "2026-11-06",
+      "expansion_pct_gain": 11.95,
+      "expansion_close": 1785.1,
+      "expansion_volume": 13228347,
+      "volume_ema50_at_expansion": 1041426,
+      "volume_multiple": 12.7,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-13",
+      "peak_high": 1954.8,
+      "max_drawdown_from_peak_close_pct": 10.4,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Sai Life Sciences Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "FUSION",
@@ -788,22 +770,22 @@
       "expansion_pct_gain": 8.61,
       "expansion_close": 144.17,
       "expansion_volume": 15207588,
-      "volume_ema50_at_expansion": 1202978,
+      "volume_ema50_at_expansion": 1202974,
       "volume_multiple": 12.64,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 165.3,
-      "max_drawdown_from_peak_close_pct": 6.53,
-      "current_close": 166.04,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 6.9,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Fusion Micro Finance Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "HBLENGINE",
@@ -811,22 +793,69 @@
       "expansion_pct_gain": 17.27,
       "expansion_close": 833.15,
       "expansion_volume": 39119356,
-      "volume_ema50_at_expansion": 3102913,
+      "volume_ema50_at_expansion": 3102968,
       "volume_multiple": 12.61,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-16",
       "peak_high": 842.0,
       "max_drawdown_from_peak_close_pct": 9.64,
-      "current_close": 785.85,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "HBL Engineering Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "CHEMPLASTS",
+      "expansion_date": "2026-11-09",
+      "expansion_pct_gain": 12.03,
+      "expansion_close": 237.83,
+      "expansion_volume": 16043620,
+      "volume_ema50_at_expansion": 1274649,
+      "volume_multiple": 12.59,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-09",
+      "peak_high": 255.0,
+      "max_drawdown_from_peak_close_pct": 7.58,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Chemplast Sanmar Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "KIRLOSBROS",
+      "expansion_date": "2026-11-02",
+      "expansion_pct_gain": 11.92,
+      "expansion_close": 1792.8,
+      "expansion_volume": 1638225,
+      "volume_ema50_at_expansion": 130315,
+      "volume_multiple": 12.57,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-02",
+      "peak_high": 1864.0,
+      "max_drawdown_from_peak_close_pct": 15.53,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Kirloskar Brothers Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "CYIENT",
@@ -834,14 +863,14 @@
       "expansion_pct_gain": 7.81,
       "expansion_close": 1220.49,
       "expansion_volume": 19888724,
-      "volume_ema50_at_expansion": 1603479,
+      "volume_ema50_at_expansion": 1603483,
       "volume_multiple": 12.4,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-26",
       "peak_high": 1264.04,
       "max_drawdown_from_peak_close_pct": 14.08,
-      "current_close": 1086.1,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-02",
         "2026-11-12",
@@ -850,8 +879,8 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "Cyient Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "STANLEY",
@@ -859,24 +888,25 @@
       "expansion_pct_gain": 11.29,
       "expansion_close": 141.0,
       "expansion_volume": 2581234,
-      "volume_ema50_at_expansion": 211201,
+      "volume_ema50_at_expansion": 211202,
       "volume_multiple": 12.22,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 143.94,
-      "max_drawdown_from_peak_close_pct": 11.62,
-      "current_close": 133.54,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 16.76,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-11-02",
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-06",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Stanley Lifestyles Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SHRINGARMS",
@@ -884,21 +914,21 @@
       "expansion_pct_gain": 20.0,
       "expansion_close": 265.35,
       "expansion_volume": 12953143,
-      "volume_ema50_at_expansion": 1061193,
+      "volume_ema50_at_expansion": 1061201,
       "volume_multiple": 12.21,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 324.95,
-      "max_drawdown_from_peak_close_pct": 15.8,
-      "current_close": 284.4,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 17.08,
+      "current_close": 269.45,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-30"
       ],
       "latest_inside_bar_date": "2026-10-30",
       "name": "Shringar House of Mangalsutra Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -907,23 +937,24 @@
       "expansion_pct_gain": 11.08,
       "expansion_close": 347.8,
       "expansion_volume": 4490586,
-      "volume_ema50_at_expansion": 376263,
+      "volume_ema50_at_expansion": 376266,
       "volume_multiple": 11.93,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-06",
       "peak_high": 367.9,
       "max_drawdown_from_peak_close_pct": 0.46,
-      "current_close": 386.6,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Eureka Forbes Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "EUROPRATIK",
@@ -937,8 +968,8 @@
       "peak_date": "2026-10-19",
       "peak_high": 202.5,
       "max_drawdown_from_peak_close_pct": 17.5,
-      "current_close": 190.82,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-11-09"
@@ -946,8 +977,31 @@
       "latest_inside_bar_date": "2026-11-09",
       "name": "Euro Pratik Sales Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "GABRIEL",
+      "expansion_date": "2026-11-12",
+      "expansion_pct_gain": 16.53,
+      "expansion_close": 1641.2,
+      "expansion_volume": 8058518,
+      "volume_ema50_at_expansion": 683078,
+      "volume_multiple": 11.8,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 1690.0,
+      "max_drawdown_from_peak_close_pct": 11.76,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Gabriel India Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "PIXTRANS",
@@ -961,20 +1015,21 @@
       "peak_date": "2026-10-13",
       "peak_high": 2020.0,
       "max_drawdown_from_peak_close_pct": 19.04,
-      "current_close": 1754.5,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-10-27",
         "2026-11-09",
         "2026-11-11",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Pix Transmission Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SANDUMA",
@@ -982,22 +1037,45 @@
       "expansion_pct_gain": 10.19,
       "expansion_close": 180.94,
       "expansion_volume": 10781526,
-      "volume_ema50_at_expansion": 928950,
+      "volume_ema50_at_expansion": 929029,
       "volume_multiple": 11.61,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-04",
       "peak_high": 184.9,
-      "max_drawdown_from_peak_close_pct": 4.39,
-      "current_close": 180.1,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.45,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-16"
       ],
       "latest_inside_bar_date": "2026-11-16",
       "name": "Sandur Manganese & Iron Ores Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "BOMDYEING",
+      "expansion_date": "2026-11-06",
+      "expansion_pct_gain": 7.17,
+      "expansion_close": 104.28,
+      "expansion_volume": 13818123,
+      "volume_ema50_at_expansion": 1197363,
+      "volume_multiple": 11.54,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 107.95,
+      "max_drawdown_from_peak_close_pct": 6.86,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Bombay Dyeing & Mfg Company Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SATIN",
@@ -1010,9 +1088,9 @@
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-04",
       "peak_high": 260.0,
-      "max_drawdown_from_peak_close_pct": 1.27,
-      "current_close": 258.88,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 2.1,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-06",
         "2026-11-17"
@@ -1020,8 +1098,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Satin Creditcare Network Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "JWL",
@@ -1029,22 +1107,45 @@
       "expansion_pct_gain": 6.66,
       "expansion_close": 193.11,
       "expansion_volume": 30872284,
-      "volume_ema50_at_expansion": 2717944,
+      "volume_ema50_at_expansion": 2717885,
       "volume_multiple": 11.36,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-03",
       "peak_high": 198.81,
-      "max_drawdown_from_peak_close_pct": 3.33,
-      "current_close": 203.32,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 3.81,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Jupiter Wagons Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "MTNL",
+      "expansion_date": "2026-11-06",
+      "expansion_pct_gain": 11.13,
+      "expansion_close": 26.86,
+      "expansion_volume": 83200354,
+      "volume_ema50_at_expansion": 7338716,
+      "volume_multiple": 11.34,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-06",
+      "peak_high": 28.49,
+      "max_drawdown_from_peak_close_pct": 14.88,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Mahanagar Telephone Nigam Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "KALAMANDIR",
@@ -1052,22 +1153,23 @@
       "expansion_pct_gain": 9.79,
       "expansion_close": 89.05,
       "expansion_volume": 17524980,
-      "volume_ema50_at_expansion": 1545596,
+      "volume_ema50_at_expansion": 1545660,
       "volume_multiple": 11.34,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 96.15,
-      "max_drawdown_from_peak_close_pct": 7.01,
-      "current_close": 89.41,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.24,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Sai Silks (Kalamandir) Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AFFLE",
@@ -1075,23 +1177,24 @@
       "expansion_pct_gain": 12.27,
       "expansion_close": 1506.5,
       "expansion_volume": 4210126,
-      "volume_ema50_at_expansion": 371527,
+      "volume_ema50_at_expansion": 371526,
       "volume_multiple": 11.33,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 1658.0,
       "max_drawdown_from_peak_close_pct": 4.91,
-      "current_close": 1580.8,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Affle India Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "BAJEL",
@@ -1099,23 +1202,47 @@
       "expansion_pct_gain": 7.88,
       "expansion_close": 168.34,
       "expansion_volume": 4733197,
-      "volume_ema50_at_expansion": 427389,
+      "volume_ema50_at_expansion": 427388,
       "volume_multiple": 11.07,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-27",
       "peak_high": 175.68,
-      "max_drawdown_from_peak_close_pct": 10.16,
-      "current_close": 157.83,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.53,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Bajel Projects Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "POKARNA",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 20.0,
+      "expansion_close": 810.4,
+      "expansion_volume": 2012783,
+      "volume_ema50_at_expansion": 184359,
+      "volume_multiple": 10.92,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-06",
+      "peak_high": 822.0,
+      "max_drawdown_from_peak_close_pct": 14.35,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Pokarna Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GOCOLORS",
@@ -1129,16 +1256,16 @@
       "peak_date": "2026-11-03",
       "peak_high": 285.0,
       "max_drawdown_from_peak_close_pct": 7.28,
-      "current_close": 279.04,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Go Fashion (India) Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TARIL",
@@ -1146,14 +1273,14 @@
       "expansion_pct_gain": 14.97,
       "expansion_close": 349.5,
       "expansion_volume": 69007422,
-      "volume_ema50_at_expansion": 6546418,
+      "volume_ema50_at_expansion": 6546433,
       "volume_multiple": 10.54,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 360.8,
-      "max_drawdown_from_peak_close_pct": 17.32,
-      "current_close": 306.65,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 17.66,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-10-28",
@@ -1164,8 +1291,8 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "Transformers & Rectifiers India Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ICIL",
@@ -1173,22 +1300,22 @@
       "expansion_pct_gain": 12.53,
       "expansion_close": 525.35,
       "expansion_volume": 10660360,
-      "volume_ema50_at_expansion": 1018062,
+      "volume_ema50_at_expansion": 1018065,
       "volume_multiple": 10.47,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 545.0,
       "max_drawdown_from_peak_close_pct": 0.4,
-      "current_close": 550.25,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Indo Count Industries Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "BHARATWIRE",
@@ -1196,22 +1323,45 @@
       "expansion_pct_gain": 16.61,
       "expansion_close": 165.24,
       "expansion_volume": 2784640,
-      "volume_ema50_at_expansion": 268031,
+      "volume_ema50_at_expansion": 268045,
       "volume_multiple": 10.39,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-02",
       "peak_high": 170.04,
-      "max_drawdown_from_peak_close_pct": 13.3,
-      "current_close": 147.43,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 15.29,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Bharat Wire Ropes Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "MSUMI",
+      "expansion_date": "2026-11-02",
+      "expansion_pct_gain": 10.36,
+      "expansion_close": 38.78,
+      "expansion_volume": 178574636,
+      "volume_ema50_at_expansion": 17231626,
+      "volume_multiple": 10.36,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-05",
+      "peak_high": 40.25,
+      "max_drawdown_from_peak_close_pct": 3.38,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Motherson Sumi Wiring India Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SSWL",
@@ -1219,22 +1369,23 @@
       "expansion_pct_gain": 13.55,
       "expansion_close": 530.73,
       "expansion_volume": 36618655,
-      "volume_ema50_at_expansion": 3536418,
+      "volume_ema50_at_expansion": 3536417,
       "volume_multiple": 10.35,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-26",
       "peak_high": 557.11,
       "max_drawdown_from_peak_close_pct": 12.59,
-      "current_close": 555.5,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Steel Strips Wheels Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TVSELECT",
@@ -1242,22 +1393,46 @@
       "expansion_pct_gain": 7.15,
       "expansion_close": 395.05,
       "expansion_volume": 1666205,
-      "volume_ema50_at_expansion": 164231,
+      "volume_ema50_at_expansion": 164223,
       "volume_multiple": 10.15,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-06",
       "peak_high": 416.25,
-      "max_drawdown_from_peak_close_pct": 9.09,
-      "current_close": 379.65,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.16,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Tvs Electronics Limited",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "GALAPREC",
+      "expansion_date": "2026-11-11",
+      "expansion_pct_gain": 7.26,
+      "expansion_close": 1248.3,
+      "expansion_volume": 578977,
+      "volume_ema50_at_expansion": 58606,
+      "volume_multiple": 9.88,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-11",
+      "peak_high": 1319.9,
+      "max_drawdown_from_peak_close_pct": 11.45,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Gala Precision Engineering Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ELECON",
@@ -1265,25 +1440,26 @@
       "expansion_pct_gain": 10.66,
       "expansion_close": 486.37,
       "expansion_volume": 23156626,
-      "volume_ema50_at_expansion": 2378271,
+      "volume_ema50_at_expansion": 2378277,
       "volume_multiple": 9.74,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-16",
       "peak_high": 509.05,
       "max_drawdown_from_peak_close_pct": 18.24,
-      "current_close": 453.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-10-28",
         "2026-11-09",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Elecon Engineering Company Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AEROFLEX",
@@ -1291,14 +1467,14 @@
       "expansion_pct_gain": 9.37,
       "expansion_close": 538.35,
       "expansion_volume": 35960118,
-      "volume_ema50_at_expansion": 3724250,
+      "volume_ema50_at_expansion": 3724253,
       "volume_multiple": 9.66,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
       "peak_high": 578.5,
-      "max_drawdown_from_peak_close_pct": 16.56,
-      "current_close": 487.3,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 18.23,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09",
         "2026-11-11"
@@ -1307,7 +1483,7 @@
       "name": "Aeroflex Industries Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GOODLUCK",
@@ -1315,23 +1491,24 @@
       "expansion_pct_gain": 13.21,
       "expansion_close": 566.35,
       "expansion_volume": 9109290,
-      "volume_ema50_at_expansion": 956176,
+      "volume_ema50_at_expansion": 956148,
       "volume_multiple": 9.53,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-15",
       "peak_high": 615.0,
       "max_drawdown_from_peak_close_pct": 19.72,
-      "current_close": 557.3,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-19",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-10-26",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Goodluck India Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "INDOSTAR",
@@ -1339,24 +1516,48 @@
       "expansion_pct_gain": 12.49,
       "expansion_close": 183.13,
       "expansion_volume": 2052298,
-      "volume_ema50_at_expansion": 216175,
+      "volume_ema50_at_expansion": 216177,
       "volume_multiple": 9.49,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 195.0,
       "max_drawdown_from_peak_close_pct": 6.12,
-      "current_close": 191.16,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-04",
         "2026-11-06",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-11",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Indostar Capital Finance Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "BHARATSE",
+      "expansion_date": "2026-10-27",
+      "expansion_pct_gain": 12.61,
+      "expansion_close": 208.58,
+      "expansion_volume": 4064530,
+      "volume_ema50_at_expansion": 444359,
+      "volume_multiple": 9.15,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-27",
+      "peak_high": 213.67,
+      "max_drawdown_from_peak_close_pct": 8.45,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Bharat Seats Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SSWL",
@@ -1364,22 +1565,23 @@
       "expansion_pct_gain": 19.99,
       "expansion_close": 467.41,
       "expansion_volume": 19900207,
-      "volume_ema50_at_expansion": 2186123,
+      "volume_ema50_at_expansion": 2186122,
       "volume_multiple": 9.1,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-26",
       "peak_high": 557.11,
       "max_drawdown_from_peak_close_pct": 12.59,
-      "current_close": 555.5,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Steel Strips Wheels Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SOLARA",
@@ -1387,14 +1589,14 @@
       "expansion_pct_gain": 7.38,
       "expansion_close": 696.7,
       "expansion_volume": 5696301,
-      "volume_ema50_at_expansion": 627679,
+      "volume_ema50_at_expansion": 627657,
       "volume_multiple": 9.08,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-16",
       "peak_high": 759.0,
       "max_drawdown_from_peak_close_pct": 19.43,
-      "current_close": 666.3,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-29",
         "2026-11-17"
@@ -1402,8 +1604,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Solara Active Pharma Sciences Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "IGIL",
@@ -1411,22 +1613,23 @@
       "expansion_pct_gain": 10.0,
       "expansion_close": 353.2,
       "expansion_volume": 7582399,
-      "volume_ema50_at_expansion": 835800,
+      "volume_ema50_at_expansion": 835816,
       "volume_multiple": 9.07,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-27",
       "peak_high": 419.0,
       "max_drawdown_from_peak_close_pct": 6.31,
-      "current_close": 450.6,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-04",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "International Gemmological Institute (India) Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "DALMIASUG",
@@ -1434,22 +1637,22 @@
       "expansion_pct_gain": 16.55,
       "expansion_close": 483.55,
       "expansion_volume": 5901758,
-      "volume_ema50_at_expansion": 652520,
+      "volume_ema50_at_expansion": 652519,
       "volume_multiple": 9.04,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 498.0,
-      "max_drawdown_from_peak_close_pct": 7.33,
-      "current_close": 483.0,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.13,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-16"
       ],
       "latest_inside_bar_date": "2026-11-16",
       "name": "Dalmia Bharat Sugar And Industries Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "INFOBEAN",
@@ -1457,22 +1660,22 @@
       "expansion_pct_gain": 12.59,
       "expansion_close": 154.58,
       "expansion_volume": 6170675,
-      "volume_ema50_at_expansion": 695203,
+      "volume_ema50_at_expansion": 695202,
       "volume_multiple": 8.88,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-06",
       "peak_high": 172.4,
-      "max_drawdown_from_peak_close_pct": 7.69,
-      "current_close": 159.14,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 8.17,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "InfoBeans Technologies Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "PARACABLES",
@@ -1485,17 +1688,17 @@
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-27",
       "peak_high": 69.7,
-      "max_drawdown_from_peak_close_pct": 12.64,
-      "current_close": 65.27,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 14.79,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "Paramount Communications Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "HONASA",
@@ -1503,14 +1706,14 @@
       "expansion_pct_gain": 8.19,
       "expansion_close": 478.3,
       "expansion_volume": 24467750,
-      "volume_ema50_at_expansion": 2876021,
+      "volume_ema50_at_expansion": 2876010,
       "volume_multiple": 8.51,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-06",
       "peak_high": 493.0,
       "max_drawdown_from_peak_close_pct": 12.41,
-      "current_close": 517.8,
-      "as_of_date": "2026-11-17",
+      "current_close": 524.5,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-16",
         "2026-10-21",
@@ -1520,7 +1723,7 @@
       "latest_inside_bar_date": "2026-11-11",
       "name": "Honasa Consumer Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -1529,21 +1732,21 @@
       "expansion_pct_gain": 7.77,
       "expansion_close": 166.19,
       "expansion_volume": 4942118,
-      "volume_ema50_at_expansion": 588597,
+      "volume_ema50_at_expansion": 588603,
       "volume_multiple": 8.4,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 175.0,
-      "max_drawdown_from_peak_close_pct": 14.14,
-      "current_close": 150.25,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 17.09,
+      "current_close": 145.09,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Epack Durable Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -1552,22 +1755,22 @@
       "expansion_pct_gain": 8.2,
       "expansion_close": 25.08,
       "expansion_volume": 44359622,
-      "volume_ema50_at_expansion": 5278444,
+      "volume_ema50_at_expansion": 5278410,
       "volume_multiple": 8.4,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-02",
       "peak_high": 28.83,
-      "max_drawdown_from_peak_close_pct": 8.57,
-      "current_close": 26.36,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 11.93,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-11"
       ],
       "latest_inside_bar_date": "2026-11-11",
       "name": "Jain Irrigation Systems Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "KALAMANDIR",
@@ -1575,22 +1778,23 @@
       "expansion_pct_gain": 9.1,
       "expansion_close": 73.7,
       "expansion_volume": 5768093,
-      "volume_ema50_at_expansion": 701923,
+      "volume_ema50_at_expansion": 701993,
       "volume_multiple": 8.22,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 96.15,
-      "max_drawdown_from_peak_close_pct": 7.01,
-      "current_close": 89.41,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.24,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Sai Silks (Kalamandir) Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "JAICORPLTD",
@@ -1598,14 +1802,14 @@
       "expansion_pct_gain": 7.49,
       "expansion_close": 98.86,
       "expansion_volume": 50833549,
-      "volume_ema50_at_expansion": 6270086,
+      "volume_ema50_at_expansion": 6270144,
       "volume_multiple": 8.11,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 101.95,
       "max_drawdown_from_peak_close_pct": 15.49,
-      "current_close": 90.29,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-11-02"
@@ -1613,35 +1817,8 @@
       "latest_inside_bar_date": "2026-11-02",
       "name": "Jai Corp Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "SDBL",
-      "expansion_date": "2026-09-28",
-      "expansion_pct_gain": 8.42,
-      "expansion_close": 80.62,
-      "expansion_volume": 19487717,
-      "volume_ema50_at_expansion": 2422985,
-      "volume_multiple": 8.04,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-09-28",
-      "peak_high": 83.8,
-      "max_drawdown_from_peak_close_pct": 19.65,
-      "current_close": 75.06,
-      "as_of_date": "2026-11-11",
-      "inside_bar_dates": [
-        "2026-10-06",
-        "2026-10-19",
-        "2026-10-28",
-        "2026-10-29",
-        "2026-11-03"
-      ],
-      "latest_inside_bar_date": "2026-11-03",
-      "name": "Som Distilleries & Breweries Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-11"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "IDBI",
@@ -1649,14 +1826,14 @@
       "expansion_pct_gain": 8.98,
       "expansion_close": 90.39,
       "expansion_volume": 148602851,
-      "volume_ema50_at_expansion": 18569200,
+      "volume_ema50_at_expansion": 18569446,
       "volume_multiple": 8.0,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 93.6,
       "max_drawdown_from_peak_close_pct": 18.33,
-      "current_close": 79.28,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-11-04",
@@ -1665,8 +1842,8 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "Idbi Bank Limited",
       "category": "midcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "WELSPUNLIV",
@@ -1674,23 +1851,50 @@
       "expansion_pct_gain": 10.62,
       "expansion_close": 242.34,
       "expansion_volume": 58622777,
-      "volume_ema50_at_expansion": 7361579,
+      "volume_ema50_at_expansion": 7361580,
       "volume_multiple": 7.96,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-04",
       "peak_high": 267.42,
       "max_drawdown_from_peak_close_pct": 9.77,
-      "current_close": 265.62,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Welspun Living Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "KROSS",
+      "expansion_date": "2026-10-19",
+      "expansion_pct_gain": 9.39,
+      "expansion_close": 297.55,
+      "expansion_volume": 16618665,
+      "volume_ema50_at_expansion": 2107126,
+      "volume_multiple": 7.89,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-19",
+      "peak_high": 326.4,
+      "max_drawdown_from_peak_close_pct": 18.0,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-13",
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Kross Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ADSL",
@@ -1698,14 +1902,14 @@
       "expansion_pct_gain": 11.74,
       "expansion_close": 109.97,
       "expansion_volume": 4125965,
-      "volume_ema50_at_expansion": 536198,
+      "volume_ema50_at_expansion": 536194,
       "volume_multiple": 7.69,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-09",
       "peak_high": 115.4,
       "max_drawdown_from_peak_close_pct": 17.68,
-      "current_close": 102.38,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-10-30",
@@ -1715,8 +1919,8 @@
       "latest_inside_bar_date": "2026-11-13",
       "name": "Allied Digital Services Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "NUVAMA",
@@ -1724,7 +1928,7 @@
       "expansion_pct_gain": 7.02,
       "expansion_close": 1820.8,
       "expansion_volume": 4036851,
-      "volume_ema50_at_expansion": 524700,
+      "volume_ema50_at_expansion": 524703,
       "volume_multiple": 7.69,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-06",
@@ -1739,8 +1943,31 @@
       "latest_inside_bar_date": "2026-10-26",
       "name": "Nuvama Wealth Management Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-17"
+    },
+    {
+      "symbol": "PARAGMILK",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 10.88,
+      "expansion_close": 323.75,
+      "expansion_volume": 21723500,
+      "volume_ema50_at_expansion": 2842989,
+      "volume_multiple": 7.64,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-06",
+      "peak_high": 336.99,
+      "max_drawdown_from_peak_close_pct": 3.66,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Parag Milk Foods Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SCI",
@@ -1748,7 +1975,7 @@
       "expansion_pct_gain": 8.82,
       "expansion_close": 286.3,
       "expansion_volume": 24814404,
-      "volume_ema50_at_expansion": 3288476,
+      "volume_ema50_at_expansion": 3288593,
       "volume_multiple": 7.55,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-06",
@@ -1764,8 +1991,8 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "Shipping Corporation Of India Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-17"
     },
     {
       "symbol": "BHARTIHEXA",
@@ -1773,14 +2000,14 @@
       "expansion_pct_gain": 6.57,
       "expansion_close": 1477.9,
       "expansion_volume": 1512590,
-      "volume_ema50_at_expansion": 201775,
+      "volume_ema50_at_expansion": 201774,
       "volume_multiple": 7.5,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-13",
       "peak_high": 1557.9,
       "max_drawdown_from_peak_close_pct": 0.59,
-      "current_close": 1672.7,
-      "as_of_date": "2026-11-17",
+      "current_close": 1639.3,
+      "as_of_date": "2026-11-19",
       "inside_bar_dates": [
         "2026-10-16",
         "2026-10-23",
@@ -1791,8 +2018,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Bharti Hexacom Ltd",
       "category": "midcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-19"
     },
     {
       "symbol": "CHENNPETRO",
@@ -1800,21 +2027,117 @@
       "expansion_pct_gain": 14.7,
       "expansion_close": 1585.64,
       "expansion_volume": 20027812,
-      "volume_ema50_at_expansion": 2678510,
+      "volume_ema50_at_expansion": 2678647,
       "volume_multiple": 7.48,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-07",
       "peak_high": 1601.77,
       "max_drawdown_from_peak_close_pct": 13.64,
-      "current_close": 1410.4,
-      "as_of_date": "2026-11-17",
+      "current_close": 1424.7,
+      "as_of_date": "2026-11-19",
       "inside_bar_dates": [
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-09",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Chennai Petroleum Corporation Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-19"
+    },
+    {
+      "symbol": "PARAGMILK",
+      "expansion_date": "2026-11-04",
+      "expansion_pct_gain": 17.02,
+      "expansion_close": 291.98,
+      "expansion_volume": 15394904,
+      "volume_ema50_at_expansion": 2072356,
+      "volume_multiple": 7.43,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-06",
+      "peak_high": 336.99,
+      "max_drawdown_from_peak_close_pct": 3.66,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Parag Milk Foods Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "TIPSMUSIC",
+      "expansion_date": "2026-10-16",
+      "expansion_pct_gain": 9.13,
+      "expansion_close": 740.41,
+      "expansion_volume": 4468460,
+      "volume_ema50_at_expansion": 611425,
+      "volume_multiple": 7.31,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-19",
+      "peak_high": 778.18,
+      "max_drawdown_from_peak_close_pct": 7.87,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Tips Music Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "HINDOILEXP",
+      "expansion_date": "2026-11-12",
+      "expansion_pct_gain": 10.23,
+      "expansion_close": 188.79,
+      "expansion_volume": 7494966,
+      "volume_ema50_at_expansion": 1041425,
+      "volume_multiple": 7.2,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-18",
+      "peak_high": 238.89,
+      "max_drawdown_from_peak_close_pct": 10.21,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Hindustan Oil Exploration Company Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "HITECH",
+      "expansion_date": "2026-10-06",
+      "expansion_pct_gain": 6.61,
+      "expansion_close": 74.68,
+      "expansion_volume": 6307495,
+      "volume_ema50_at_expansion": 894726,
+      "volume_multiple": 7.05,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-06",
+      "peak_high": 76.24,
+      "max_drawdown_from_peak_close_pct": 17.5,
+      "current_close": 75.08,
+      "as_of_date": "2026-11-18",
+      "inside_bar_dates": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-11-09",
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Hi-Tech Pipes Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -1823,49 +2146,23 @@
       "expansion_pct_gain": 11.82,
       "expansion_close": 290.35,
       "expansion_volume": 8234249,
-      "volume_ema50_at_expansion": 1178014,
+      "volume_ema50_at_expansion": 1178023,
       "volume_multiple": 6.99,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 304.8,
       "max_drawdown_from_peak_close_pct": 7.5,
-      "current_close": 296.1,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "M & B Engineering Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "THOMASCOTT",
-      "expansion_date": "2026-10-01",
-      "expansion_pct_gain": 12.29,
-      "expansion_close": 300.2,
-      "expansion_volume": 725256,
-      "volume_ema50_at_expansion": 104081,
-      "volume_multiple": 6.97,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-01",
-      "peak_high": 316.95,
-      "max_drawdown_from_peak_close_pct": 15.95,
-      "current_close": 282.1,
-      "as_of_date": "2026-11-16",
-      "inside_bar_dates": [
-        "2026-10-14",
-        "2026-10-16",
-        "2026-10-21",
-        "2026-10-29",
-        "2026-11-12"
-      ],
-      "latest_inside_bar_date": "2026-11-12",
-      "name": "Thomas Scott (india) Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-16"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AEGISLOG",
@@ -1873,22 +2170,96 @@
       "expansion_pct_gain": 7.0,
       "expansion_close": 1177.1,
       "expansion_volume": 11058226,
-      "volume_ema50_at_expansion": 1597470,
+      "volume_ema50_at_expansion": 1597477,
       "volume_multiple": 6.92,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-04",
       "peak_high": 1259.1,
       "max_drawdown_from_peak_close_pct": 9.37,
-      "current_close": 1211.6,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-16"
       ],
       "latest_inside_bar_date": "2026-11-16",
       "name": "Aegis Logistics Ltd",
       "category": "midcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "INFOBEAN",
+      "expansion_date": "2026-10-09",
+      "expansion_pct_gain": 6.86,
+      "expansion_close": 156.19,
+      "expansion_volume": 3935996,
+      "volume_ema50_at_expansion": 570710,
+      "volume_multiple": 6.9,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-14",
+      "peak_high": 165.0,
+      "max_drawdown_from_peak_close_pct": 16.79,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-10-21",
+        "2026-11-04",
+        "2026-11-09"
+      ],
+      "latest_inside_bar_date": "2026-11-09",
+      "name": "InfoBeans Technologies Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "KROSS",
+      "expansion_date": "2026-10-14",
+      "expansion_pct_gain": 11.67,
+      "expansion_close": 272.25,
+      "expansion_volume": 10379437,
+      "volume_ema50_at_expansion": 1506642,
+      "volume_multiple": 6.89,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-19",
+      "peak_high": 326.4,
+      "max_drawdown_from_peak_close_pct": 18.0,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-13",
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Kross Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "PGEL",
+      "expansion_date": "2026-10-28",
+      "expansion_pct_gain": 7.16,
+      "expansion_close": 536.4,
+      "expansion_volume": 12380304,
+      "volume_ema50_at_expansion": 1830017,
+      "volume_multiple": 6.77,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-02",
+      "peak_high": 547.0,
+      "max_drawdown_from_peak_close_pct": 2.67,
+      "current_close": 588.7,
+      "as_of_date": "2026-11-20",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Pg Electroplast Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-22"
     },
     {
       "symbol": "BLKASHYAP",
@@ -1896,14 +2267,14 @@
       "expansion_pct_gain": 7.58,
       "expansion_close": 61.34,
       "expansion_volume": 6016635,
-      "volume_ema50_at_expansion": 891844,
+      "volume_ema50_at_expansion": 891843,
       "volume_multiple": 6.75,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 63.36,
       "max_drawdown_from_peak_close_pct": 18.91,
-      "current_close": 52.05,
-      "as_of_date": "2026-11-17",
+      "current_close": 52.45,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-11-02",
@@ -1912,8 +2283,32 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "B. L. Kashyap And Sons Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
+    },
+    {
+      "symbol": "MRPL",
+      "expansion_date": "2026-10-26",
+      "expansion_pct_gain": 12.55,
+      "expansion_close": 182.61,
+      "expansion_volume": 113992434,
+      "volume_ema50_at_expansion": 17065253,
+      "volume_multiple": 6.68,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-28",
+      "peak_high": 190.72,
+      "max_drawdown_from_peak_close_pct": 9.34,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Mangalore Refinery And Petrochemicals Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TTML",
@@ -1921,22 +2316,23 @@
       "expansion_pct_gain": 12.57,
       "expansion_close": 39.77,
       "expansion_volume": 185092017,
-      "volume_ema50_at_expansion": 27843514,
+      "volume_ema50_at_expansion": 27843146,
       "volume_multiple": 6.65,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-06",
       "peak_high": 40.75,
-      "max_drawdown_from_peak_close_pct": 8.93,
-      "current_close": 37.11,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 11.61,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Tata Teleservices (maharashtra) Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SONACOMS",
@@ -1944,14 +2340,14 @@
       "expansion_pct_gain": 8.95,
       "expansion_close": 851.85,
       "expansion_volume": 19084943,
-      "volume_ema50_at_expansion": 2897708,
+      "volume_ema50_at_expansion": 2897716,
       "volume_multiple": 6.59,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-02",
       "peak_high": 911.25,
-      "max_drawdown_from_peak_close_pct": 1.93,
-      "current_close": 899.7,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 2.44,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-03",
         "2026-11-06",
@@ -1960,8 +2356,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Sona BLW Precision Forgings Ltd",
       "category": "midcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ZAGGLE",
@@ -1969,22 +2365,22 @@
       "expansion_pct_gain": 8.79,
       "expansion_close": 164.78,
       "expansion_volume": 12645009,
-      "volume_ema50_at_expansion": 1966595,
+      "volume_ema50_at_expansion": 1966604,
       "volume_multiple": 6.43,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-27",
       "peak_high": 171.73,
-      "max_drawdown_from_peak_close_pct": 10.23,
-      "current_close": 158.66,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.84,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Zaggle Prepaid Ocean Services Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "MAHLOG",
@@ -1998,16 +2394,40 @@
       "peak_date": "2026-10-27",
       "peak_high": 444.6,
       "max_drawdown_from_peak_close_pct": 15.86,
-      "current_close": 379.15,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-11",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Mahindra Logistics Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "PRAJIND",
+      "expansion_date": "2026-11-02",
+      "expansion_pct_gain": 12.18,
+      "expansion_close": 271.13,
+      "expansion_volume": 5339116,
+      "volume_ema50_at_expansion": 843435,
+      "volume_multiple": 6.33,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-02",
+      "peak_high": 273.9,
+      "max_drawdown_from_peak_close_pct": 12.94,
+      "current_close": 238.47,
+      "as_of_date": "2026-11-19",
+      "inside_bar_dates": [
+        "2026-11-12"
+      ],
+      "latest_inside_bar_date": "2026-11-12",
+      "name": "Praj Industries Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-19"
     },
     {
       "symbol": "KALAMANDIR",
@@ -2015,22 +2435,23 @@
       "expansion_pct_gain": 10.05,
       "expansion_close": 81.11,
       "expansion_volume": 5583960,
-      "volume_ema50_at_expansion": 893376,
+      "volume_ema50_at_expansion": 893443,
       "volume_multiple": 6.25,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 96.15,
-      "max_drawdown_from_peak_close_pct": 7.01,
-      "current_close": 89.41,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.24,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Sai Silks (Kalamandir) Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SBFC",
@@ -2038,14 +2459,14 @@
       "expansion_pct_gain": 9.63,
       "expansion_close": 90.49,
       "expansion_volume": 13888705,
-      "volume_ema50_at_expansion": 2233635,
+      "volume_ema50_at_expansion": 2233663,
       "volume_multiple": 6.22,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 92.0,
       "max_drawdown_from_peak_close_pct": 8.29,
-      "current_close": 87.48,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09",
         "2026-11-11",
@@ -2055,8 +2476,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "SBFC Finance Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SHAREINDIA",
@@ -2064,22 +2485,46 @@
       "expansion_pct_gain": 8.19,
       "expansion_close": 183.77,
       "expansion_volume": 22113365,
-      "volume_ema50_at_expansion": 3556253,
+      "volume_ema50_at_expansion": 3556284,
       "volume_multiple": 6.22,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-03",
       "peak_high": 194.57,
-      "max_drawdown_from_peak_close_pct": 7.19,
-      "current_close": 180.58,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.32,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Share India Securities Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "TECHNOE",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 6.6,
+      "expansion_close": 942.75,
+      "expansion_volume": 1446522,
+      "volume_ema50_at_expansion": 232968,
+      "volume_multiple": 6.21,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 1024.0,
+      "max_drawdown_from_peak_close_pct": 9.92,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Techno Electric & Engineering Company Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ENGINERSIN",
@@ -2093,8 +2538,8 @@
       "peak_date": "2026-11-05",
       "peak_high": 308.8,
       "max_drawdown_from_peak_close_pct": 5.21,
-      "current_close": 312.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12",
         "2026-11-13"
@@ -2102,8 +2547,8 @@
       "latest_inside_bar_date": "2026-11-13",
       "name": "Engineers India Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "KSHINTL",
@@ -2117,40 +2562,40 @@
       "peak_date": "2026-11-05",
       "peak_high": 1097.0,
       "max_drawdown_from_peak_close_pct": 9.53,
-      "current_close": 1066.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "KSH International Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
-      "symbol": "SIMPLEXINF",
-      "expansion_date": "2026-10-14",
-      "expansion_pct_gain": 7.15,
-      "expansion_close": 266.61,
-      "expansion_volume": 1050335,
-      "volume_ema50_at_expansion": 178224,
-      "volume_multiple": 5.89,
+      "symbol": "VINCOFE",
+      "expansion_date": "2026-11-04",
+      "expansion_pct_gain": 9.99,
+      "expansion_close": 168.73,
+      "expansion_volume": 11671022,
+      "volume_ema50_at_expansion": 1999116,
+      "volume_multiple": 5.84,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-19",
-      "peak_high": 294.65,
-      "max_drawdown_from_peak_close_pct": 15.37,
-      "current_close": 290.65,
-      "as_of_date": "2026-11-11",
+      "peak_date": "2026-11-05",
+      "peak_high": 172.51,
+      "max_drawdown_from_peak_close_pct": 12.96,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-04",
-        "2026-11-06"
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-06",
-      "name": "Simplex Infrastructures Limited",
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Vintage Coffee & Beverages Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-11"
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "JAIBALAJI",
@@ -2158,26 +2603,28 @@
       "expansion_pct_gain": 7.99,
       "expansion_close": 74.91,
       "expansion_volume": 6019636,
-      "volume_ema50_at_expansion": 1031736,
+      "volume_ema50_at_expansion": 1031718,
       "volume_multiple": 5.83,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-15",
       "peak_high": 76.3,
       "max_drawdown_from_peak_close_pct": 19.36,
-      "current_close": 64.32,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-10-29",
         "2026-11-04",
         "2026-11-09",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-19",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Jai Balaji Industries Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "APOLLOPIPE",
@@ -2185,14 +2632,14 @@
       "expansion_pct_gain": 12.96,
       "expansion_close": 544.25,
       "expansion_volume": 1602787,
-      "volume_ema50_at_expansion": 277643,
+      "volume_ema50_at_expansion": 277642,
       "volume_multiple": 5.77,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
       "peak_high": 560.35,
       "max_drawdown_from_peak_close_pct": 11.64,
-      "current_close": 495.15,
-      "as_of_date": "2026-11-17",
+      "current_close": 547.35,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-11-06",
         "2026-11-09"
@@ -2200,7 +2647,7 @@
       "latest_inside_bar_date": "2026-11-09",
       "name": "Apollo Pipes Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
     },
     {
@@ -2214,22 +2661,23 @@
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-09",
       "peak_high": 284.6,
-      "max_drawdown_from_peak_close_pct": 12.91,
-      "current_close": 248.6,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 15.21,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-16",
         "2026-10-27",
         "2026-10-29",
         "2026-11-03",
         "2026-11-05",
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "R Systems International Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ROLEXRINGS",
@@ -2237,22 +2685,22 @@
       "expansion_pct_gain": 11.89,
       "expansion_close": 188.82,
       "expansion_volume": 15339801,
-      "volume_ema50_at_expansion": 2784070,
+      "volume_ema50_at_expansion": 2783934,
       "volume_multiple": 5.51,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 214.6,
-      "max_drawdown_from_peak_close_pct": 4.7,
-      "current_close": 204.52,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.69,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Rolex Rings Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "RITES",
@@ -2260,22 +2708,22 @@
       "expansion_pct_gain": 6.73,
       "expansion_close": 212.2,
       "expansion_volume": 19824604,
-      "volume_ema50_at_expansion": 3612380,
+      "volume_ema50_at_expansion": 3612227,
       "volume_multiple": 5.49,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-15",
       "peak_high": 216.89,
       "max_drawdown_from_peak_close_pct": 14.03,
-      "current_close": 192.64,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28"
       ],
       "latest_inside_bar_date": "2026-10-28",
       "name": "Rites Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "DATAPATTNS",
@@ -2283,14 +2731,14 @@
       "expansion_pct_gain": 6.83,
       "expansion_close": 4025.0,
       "expansion_volume": 3663560,
-      "volume_ema50_at_expansion": 679620,
+      "volume_ema50_at_expansion": 679624,
       "volume_multiple": 5.39,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-13",
       "peak_high": 4324.4,
-      "max_drawdown_from_peak_close_pct": 3.11,
-      "current_close": 4215.9,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 4.93,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -2298,7 +2746,7 @@
       "name": "Data Patterns (India) Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "RPOWER",
@@ -2306,22 +2754,23 @@
       "expansion_pct_gain": 9.14,
       "expansion_close": 18.98,
       "expansion_volume": 161886883,
-      "volume_ema50_at_expansion": 30330142,
+      "volume_ema50_at_expansion": 30330348,
       "volume_multiple": 5.34,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-30",
       "peak_high": 19.19,
-      "max_drawdown_from_peak_close_pct": 6.67,
-      "current_close": 17.94,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 7.97,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Reliance Power Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SERVOTECH",
@@ -2329,14 +2778,14 @@
       "expansion_pct_gain": 7.79,
       "expansion_close": 68.63,
       "expansion_volume": 2902182,
-      "volume_ema50_at_expansion": 548830,
+      "volume_ema50_at_expansion": 548831,
       "volume_multiple": 5.29,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-04",
       "peak_high": 71.47,
-      "max_drawdown_from_peak_close_pct": 7.61,
-      "current_close": 66.03,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.65,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -2344,7 +2793,7 @@
       "name": "Servotech Power Systems Ltd",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GRMOVER",
@@ -2352,14 +2801,14 @@
       "expansion_pct_gain": 9.95,
       "expansion_close": 87.98,
       "expansion_volume": 7797418,
-      "volume_ema50_at_expansion": 1548181,
+      "volume_ema50_at_expansion": 1548186,
       "volume_multiple": 5.04,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 97.5,
-      "max_drawdown_from_peak_close_pct": 10.37,
-      "current_close": 87.51,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 15.53,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-21",
         "2026-10-30",
@@ -2369,8 +2818,8 @@
       "latest_inside_bar_date": "2026-11-13",
       "name": "GRM Overseas Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "NLCINDIA",
@@ -2378,47 +2827,23 @@
       "expansion_pct_gain": 7.54,
       "expansion_close": 246.19,
       "expansion_volume": 10183415,
-      "volume_ema50_at_expansion": 2030522,
+      "volume_ema50_at_expansion": 2030470,
       "volume_multiple": 5.02,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 253.36,
-      "max_drawdown_from_peak_close_pct": 7.32,
-      "current_close": 234.82,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 10.45,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-17",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Nlc India Limited",
       "category": "midcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "PREMIERPOL",
-      "expansion_date": "2026-10-05",
-      "expansion_pct_gain": 12.03,
-      "expansion_close": 101.54,
-      "expansion_volume": 5042542,
-      "volume_ema50_at_expansion": 1014822,
-      "volume_multiple": 4.97,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-08",
-      "peak_high": 106.7,
-      "max_drawdown_from_peak_close_pct": 17.21,
-      "current_close": 88.34,
-      "as_of_date": "2026-11-13",
-      "inside_bar_dates": [
-        "2026-10-13",
-        "2026-10-27",
-        "2026-11-02"
-      ],
-      "latest_inside_bar_date": "2026-11-02",
-      "name": "Premier Polyfilm Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-15"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ANUHPHR",
@@ -2426,45 +2851,22 @@
       "expansion_pct_gain": 9.49,
       "expansion_close": 87.31,
       "expansion_volume": 692985,
-      "volume_ema50_at_expansion": 143422,
+      "volume_ema50_at_expansion": 143423,
       "volume_multiple": 4.83,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-30",
       "peak_high": 89.8,
-      "max_drawdown_from_peak_close_pct": 10.06,
-      "current_close": 80.77,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 11.71,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "Anuh Pharma Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "ASIANTILES",
-      "expansion_date": "2026-10-12",
-      "expansion_pct_gain": 13.05,
-      "expansion_close": 51.54,
-      "expansion_volume": 25812522,
-      "volume_ema50_at_expansion": 5542465,
-      "volume_multiple": 4.66,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-15",
-      "peak_high": 55.21,
-      "max_drawdown_from_peak_close_pct": 19.49,
-      "current_close": 44.47,
-      "as_of_date": "2026-11-13",
-      "inside_bar_dates": [
-        "2026-10-21"
-      ],
-      "latest_inside_bar_date": "2026-10-21",
-      "name": "Asian Granito India Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-15"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "KAMDHENU",
@@ -2472,22 +2874,23 @@
       "expansion_pct_gain": 6.73,
       "expansion_close": 37.42,
       "expansion_volume": 5064971,
-      "volume_ema50_at_expansion": 1089341,
+      "volume_ema50_at_expansion": 1089342,
       "volume_multiple": 4.65,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 42.56,
       "max_drawdown_from_peak_close_pct": 15.34,
-      "current_close": 37.47,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Kamdhenu Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "MANKIND",
@@ -2495,14 +2898,14 @@
       "expansion_pct_gain": 8.24,
       "expansion_close": 2502.5,
       "expansion_volume": 3030899,
-      "volume_ema50_at_expansion": 654070,
+      "volume_ema50_at_expansion": 654074,
       "volume_multiple": 4.63,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 2549.0,
       "max_drawdown_from_peak_close_pct": 3.13,
-      "current_close": 2610.0,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-03",
         "2026-11-11",
@@ -2511,31 +2914,31 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "Mankind Pharma Ltd",
       "category": "midcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
-      "symbol": "PACEDIGITK",
-      "expansion_date": "2026-11-02",
-      "expansion_pct_gain": 10.98,
-      "expansion_close": 154.99,
-      "expansion_volume": 8942144,
-      "volume_ema50_at_expansion": 1947378,
-      "volume_multiple": 4.59,
+      "symbol": "ENTERO",
+      "expansion_date": "2026-11-06",
+      "expansion_pct_gain": 8.34,
+      "expansion_close": 1900.4,
+      "expansion_volume": 1206807,
+      "volume_ema50_at_expansion": 264518,
+      "volume_multiple": 4.56,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-11-05",
-      "peak_high": 166.89,
-      "max_drawdown_from_peak_close_pct": 5.54,
-      "current_close": 170.47,
-      "as_of_date": "2026-11-16",
+      "peak_date": "2026-11-09",
+      "peak_high": 2137.6,
+      "max_drawdown_from_peak_close_pct": 11.03,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-09"
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-09",
-      "name": "Pace Digitek Ltd",
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Entero Healthcare Solutions Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-16"
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "VRLLOG",
@@ -2543,22 +2946,23 @@
       "expansion_pct_gain": 12.1,
       "expansion_close": 331.2,
       "expansion_volume": 4404105,
-      "volume_ema50_at_expansion": 970989,
+      "volume_ema50_at_expansion": 970990,
       "volume_multiple": 4.54,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 348.25,
       "max_drawdown_from_peak_close_pct": 7.02,
-      "current_close": 339.1,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-12",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "Vrl Logistics Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AEROENTER",
@@ -2566,25 +2970,26 @@
       "expansion_pct_gain": 10.84,
       "expansion_close": 136.68,
       "expansion_volume": 4240032,
-      "volume_ema50_at_expansion": 946651,
+      "volume_ema50_at_expansion": 946655,
       "volume_multiple": 4.48,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 143.5,
       "max_drawdown_from_peak_close_pct": 18.75,
-      "current_close": 133.31,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-19",
         "2026-10-26",
         "2026-11-03",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-09",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Aeroflex Enterprises Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "DRREDDY",
@@ -2592,46 +2997,24 @@
       "expansion_pct_gain": 6.62,
       "expansion_close": 1310.9,
       "expansion_volume": 10003270,
-      "volume_ema50_at_expansion": 2244838,
+      "volume_ema50_at_expansion": 2244841,
       "volume_multiple": 4.46,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-30",
       "peak_high": 1363.7,
       "max_drawdown_from_peak_close_pct": 1.59,
-      "current_close": 1388.0,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-19",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-06",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Dr. Reddy's Laboratories Limited",
       "category": "midcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "INDIAGLYCO",
-      "expansion_date": "2026-10-27",
-      "expansion_pct_gain": 16.12,
-      "expansion_close": 332.05,
-      "expansion_volume": 7093770,
-      "volume_ema50_at_expansion": 1590787,
-      "volume_multiple": 4.46,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-30",
-      "peak_high": 353.8,
-      "max_drawdown_from_peak_close_pct": 17.34,
-      "current_close": 292.45,
-      "as_of_date": "2026-11-16",
-      "inside_bar_dates": [
-        "2026-11-05",
-        "2026-11-12"
-      ],
-      "latest_inside_bar_date": "2026-11-12",
-      "name": "India Glycols Limited",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-16"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "ROLEXRINGS",
@@ -2639,22 +3022,22 @@
       "expansion_pct_gain": 8.92,
       "expansion_close": 205.67,
       "expansion_volume": 14230174,
-      "volume_ema50_at_expansion": 3232937,
+      "volume_ema50_at_expansion": 3232806,
       "volume_multiple": 4.4,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-12",
       "peak_high": 220.0,
-      "max_drawdown_from_peak_close_pct": 7.04,
-      "current_close": 204.52,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 11.9,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Rolex Rings Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "PRAKASH",
@@ -2662,14 +3045,14 @@
       "expansion_pct_gain": 8.18,
       "expansion_close": 126.91,
       "expansion_volume": 2468669,
-      "volume_ema50_at_expansion": 566188,
+      "volume_ema50_at_expansion": 566181,
       "volume_multiple": 4.36,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-21",
       "peak_high": 129.0,
-      "max_drawdown_from_peak_close_pct": 14.32,
-      "current_close": 112.46,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 14.33,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-10-30",
@@ -2680,32 +3063,8 @@
       "latest_inside_bar_date": "2026-11-17",
       "name": "Prakash Industries Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
-    },
-    {
-      "symbol": "ATL",
-      "expansion_date": "2026-10-16",
-      "expansion_pct_gain": 8.11,
-      "expansion_close": 28.12,
-      "expansion_volume": 1179737,
-      "volume_ema50_at_expansion": 270742,
-      "volume_multiple": 4.36,
-      "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-16",
-      "peak_high": 29.5,
-      "max_drawdown_from_peak_close_pct": 19.32,
-      "current_close": 27.01,
-      "as_of_date": "2026-11-12",
-      "inside_bar_dates": [
-        "2026-10-28",
-        "2026-11-11"
-      ],
-      "latest_inside_bar_date": "2026-11-11",
-      "name": "Allcargo Terminals Ltd",
-      "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-12"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "TATACHEM",
@@ -2713,14 +3072,14 @@
       "expansion_pct_gain": 8.0,
       "expansion_close": 636.95,
       "expansion_volume": 9766733,
-      "volume_ema50_at_expansion": 2389555,
+      "volume_ema50_at_expansion": 2389554,
       "volume_multiple": 4.09,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 642.75,
       "max_drawdown_from_peak_close_pct": 10.26,
-      "current_close": 649.45,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-10-28",
@@ -2729,8 +3088,8 @@
       "latest_inside_bar_date": "2026-11-03",
       "name": "Tata Chemicals Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "MCLEODRUSS",
@@ -2738,24 +3097,25 @@
       "expansion_pct_gain": 9.67,
       "expansion_close": 51.51,
       "expansion_volume": 1495136,
-      "volume_ema50_at_expansion": 370375,
+      "volume_ema50_at_expansion": 370392,
       "volume_multiple": 4.04,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-19",
       "peak_high": 52.55,
       "max_drawdown_from_peak_close_pct": 19.7,
-      "current_close": 42.72,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-11-03",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-09",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Mcleod Russel India Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "OLAELEC",
@@ -2763,22 +3123,24 @@
       "expansion_pct_gain": 16.23,
       "expansion_close": 34.8,
       "expansion_volume": 332028207,
-      "volume_ema50_at_expansion": 82690527,
+      "volume_ema50_at_expansion": 82689808,
       "volume_multiple": 4.02,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-28",
       "peak_high": 37.47,
-      "max_drawdown_from_peak_close_pct": 11.45,
-      "current_close": 33.24,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 13.05,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-19",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-04",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Ola Electric Mobility Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "63MOONS",
@@ -2786,24 +3148,49 @@
       "expansion_pct_gain": 7.53,
       "expansion_close": 824.0,
       "expansion_volume": 2274072,
-      "volume_ema50_at_expansion": 568497,
+      "volume_ema50_at_expansion": 568503,
       "volume_multiple": 4.0,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-15",
       "peak_high": 950.0,
       "max_drawdown_from_peak_close_pct": 9.48,
-      "current_close": 958.9,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-11-09",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-18",
+        "2026-11-19"
       ],
-      "latest_inside_bar_date": "2026-11-13",
+      "latest_inside_bar_date": "2026-11-19",
       "name": "63 Moons Technologies Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "CAPACITE",
+      "expansion_date": "2026-11-04",
+      "expansion_pct_gain": 10.35,
+      "expansion_close": 166.59,
+      "expansion_volume": 1449147,
+      "volume_ema50_at_expansion": 367388,
+      "volume_multiple": 3.94,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-11",
+      "peak_high": 186.75,
+      "max_drawdown_from_peak_close_pct": 9.45,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-17"
+      ],
+      "latest_inside_bar_date": "2026-11-17",
+      "name": "Capacite Infraprojects Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AGIIL",
@@ -2811,22 +3198,22 @@
       "expansion_pct_gain": 6.51,
       "expansion_close": 255.51,
       "expansion_volume": 6873090,
-      "volume_ema50_at_expansion": 1751271,
+      "volume_ema50_at_expansion": 1751277,
       "volume_multiple": 3.92,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-06",
       "peak_high": 308.8,
       "max_drawdown_from_peak_close_pct": 3.86,
-      "current_close": 321.75,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-09"
       ],
       "latest_inside_bar_date": "2026-11-09",
       "name": "AGI Infra Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "DHAMPURSUG",
@@ -2834,14 +3221,14 @@
       "expansion_pct_gain": 6.76,
       "expansion_close": 188.81,
       "expansion_volume": 3999385,
-      "volume_ema50_at_expansion": 1029842,
+      "volume_ema50_at_expansion": 1029835,
       "volume_multiple": 3.88,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-12",
       "peak_high": 197.3,
       "max_drawdown_from_peak_close_pct": 19.11,
-      "current_close": 166.8,
-      "as_of_date": "2026-11-17",
+      "current_close": 160.28,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
         "2026-10-16",
         "2026-10-21",
@@ -2852,8 +3239,31 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "Dhampur Sugar Mills Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
+      "first_seen_asof": "2026-11-17",
       "last_seen_asof": "2026-11-18"
+    },
+    {
+      "symbol": "TIPSMUSIC",
+      "expansion_date": "2026-10-12",
+      "expansion_pct_gain": 7.21,
+      "expansion_close": 676.32,
+      "expansion_volume": 1435419,
+      "volume_ema50_at_expansion": 371324,
+      "volume_multiple": 3.87,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-16",
+      "peak_high": 751.41,
+      "max_drawdown_from_peak_close_pct": 4.59,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Tips Music Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "AIIL",
@@ -2861,14 +3271,14 @@
       "expansion_pct_gain": 10.4,
       "expansion_close": 569.6,
       "expansion_volume": 1333483,
-      "volume_ema50_at_expansion": 347603,
+      "volume_ema50_at_expansion": 347602,
       "volume_multiple": 3.84,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 604.0,
-      "max_drawdown_from_peak_close_pct": 6.39,
-      "current_close": 568.5,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.09,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -2876,7 +3286,7 @@
       "name": "Authum Investment & Infrastructure Ltd",
       "category": "midcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SGFIN",
@@ -2884,7 +3294,7 @@
       "expansion_pct_gain": 12.83,
       "expansion_close": 734.95,
       "expansion_volume": 2157026,
-      "volume_ema50_at_expansion": 563958,
+      "volume_ema50_at_expansion": 563962,
       "volume_multiple": 3.82,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
@@ -2898,31 +3308,34 @@
       "latest_inside_bar_date": "2026-11-12",
       "name": "SG Finserve Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-17"
     },
     {
-      "symbol": "INOXWIND",
-      "expansion_date": "2026-11-02",
-      "expansion_pct_gain": 8.3,
-      "expansion_close": 59.78,
-      "expansion_volume": 47845405,
-      "volume_ema50_at_expansion": 12594563,
-      "volume_multiple": 3.8,
+      "symbol": "PGEL",
+      "expansion_date": "2026-10-06",
+      "expansion_pct_gain": 8.19,
+      "expansion_close": 527.65,
+      "expansion_volume": 5927905,
+      "volume_ema50_at_expansion": 1571114,
+      "volume_multiple": 3.77,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-11-05",
-      "peak_high": 66.35,
-      "max_drawdown_from_peak_close_pct": 2.34,
-      "current_close": 65.52,
-      "as_of_date": "2026-11-12",
+      "peak_date": "2026-10-08",
+      "peak_high": 532.45,
+      "max_drawdown_from_peak_close_pct": 11.72,
+      "current_close": 539.2,
+      "as_of_date": "2026-11-18",
       "inside_bar_dates": [
-        "2026-11-12"
+        "2026-10-13",
+        "2026-10-14",
+        "2026-11-03",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-12",
-      "name": "Inox Wind Limited",
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Pg Electroplast Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-12"
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-18"
     },
     {
       "symbol": "BANDHANBNK",
@@ -2930,14 +3343,14 @@
       "expansion_pct_gain": 9.21,
       "expansion_close": 172.0,
       "expansion_volume": 51599380,
-      "volume_ema50_at_expansion": 14025069,
+      "volume_ema50_at_expansion": 14025093,
       "volume_multiple": 3.68,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-15",
       "peak_high": 174.37,
       "max_drawdown_from_peak_close_pct": 14.04,
-      "current_close": 174.62,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-28",
         "2026-11-02",
@@ -2946,8 +3359,8 @@
       "latest_inside_bar_date": "2026-11-13",
       "name": "Bandhan Bank Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "BALRAMCHIN",
@@ -2955,22 +3368,91 @@
       "expansion_pct_gain": 9.15,
       "expansion_close": 650.82,
       "expansion_volume": 7745791,
-      "volume_ema50_at_expansion": 2139486,
+      "volume_ema50_at_expansion": 2139465,
       "volume_multiple": 3.62,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 687.2,
-      "max_drawdown_from_peak_close_pct": 5.68,
-      "current_close": 656.65,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 9.98,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-12"
       ],
       "latest_inside_bar_date": "2026-11-12",
       "name": "Balrampur Chini Mills Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-12",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "ASKAUTOLTD",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 8.31,
+      "expansion_close": 627.7,
+      "expansion_volume": 1394860,
+      "volume_ema50_at_expansion": 385183,
+      "volume_multiple": 3.62,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-12",
+      "peak_high": 656.05,
+      "max_drawdown_from_peak_close_pct": 4.55,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "ASK Automotive Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "ADVENZYMES",
+      "expansion_date": "2026-11-02",
+      "expansion_pct_gain": 6.79,
+      "expansion_close": 281.45,
+      "expansion_volume": 944233,
+      "volume_ema50_at_expansion": 265446,
+      "volume_multiple": 3.56,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-02",
+      "peak_high": 288.0,
+      "max_drawdown_from_peak_close_pct": 4.77,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Advanced Enzyme Technologies Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "IXIGO",
+      "expansion_date": "2026-11-05",
+      "expansion_pct_gain": 13.23,
+      "expansion_close": 163.79,
+      "expansion_volume": 14219226,
+      "volume_ema50_at_expansion": 4024989,
+      "volume_multiple": 3.53,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-09",
+      "peak_high": 169.5,
+      "max_drawdown_from_peak_close_pct": 3.73,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Le Travenues Technology Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "HMAAGRO",
@@ -2978,14 +3460,14 @@
       "expansion_pct_gain": 7.91,
       "expansion_close": 25.92,
       "expansion_volume": 10742036,
-      "volume_ema50_at_expansion": 3109055,
+      "volume_ema50_at_expansion": 3109048,
       "volume_multiple": 3.46,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-14",
       "peak_high": 26.5,
       "max_drawdown_from_peak_close_pct": 11.77,
-      "current_close": 26.87,
-      "as_of_date": "2026-11-17",
+      "current_close": 29.34,
+      "as_of_date": "2026-11-19",
       "inside_bar_dates": [
         "2026-10-26",
         "2026-10-28",
@@ -2994,8 +3476,8 @@
       "latest_inside_bar_date": "2026-11-05",
       "name": "HMA Agro Industries Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-19"
     },
     {
       "symbol": "DEN",
@@ -3003,14 +3485,14 @@
       "expansion_pct_gain": 7.97,
       "expansion_close": 27.36,
       "expansion_volume": 1492331,
-      "volume_ema50_at_expansion": 432486,
+      "volume_ema50_at_expansion": 432485,
       "volume_multiple": 3.45,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-13",
       "peak_high": 27.83,
       "max_drawdown_from_peak_close_pct": 13.51,
-      "current_close": 25.42,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-10-27",
         "2026-11-09",
@@ -3019,8 +3501,56 @@
       "latest_inside_bar_date": "2026-11-16",
       "name": "Den Networks Limited",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "VRLLOG",
+      "expansion_date": "2026-11-06",
+      "expansion_pct_gain": 8.46,
+      "expansion_close": 339.05,
+      "expansion_volume": 3876851,
+      "volume_ema50_at_expansion": 1143045,
+      "volume_multiple": 3.39,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-09",
+      "peak_high": 348.25,
+      "max_drawdown_from_peak_close_pct": 7.02,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-19"
+      ],
+      "latest_inside_bar_date": "2026-11-19",
+      "name": "Vrl Logistics Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-19",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "OSWALAGRO",
+      "expansion_date": "2026-10-26",
+      "expansion_pct_gain": 19.99,
+      "expansion_close": 38.29,
+      "expansion_volume": 355117,
+      "volume_ema50_at_expansion": 104774,
+      "volume_multiple": 3.39,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-10-27",
+      "peak_high": 40.88,
+      "max_drawdown_from_peak_close_pct": 15.34,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-18"
+      ],
+      "latest_inside_bar_date": "2026-11-18",
+      "name": "Oswal Agro Mills Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-18",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "REDINGTON",
@@ -3028,14 +3558,14 @@
       "expansion_pct_gain": 9.4,
       "expansion_close": 366.75,
       "expansion_volume": 18805231,
-      "volume_ema50_at_expansion": 5565951,
+      "volume_ema50_at_expansion": 5565994,
       "volume_multiple": 3.38,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-05",
       "peak_high": 378.95,
       "max_drawdown_from_peak_close_pct": 13.58,
-      "current_close": 343.1,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-17"
       ],
@@ -3043,7 +3573,7 @@
       "name": "Redington (india) Limited",
       "category": "smallcap",
       "first_seen_asof": "2026-11-17",
-      "last_seen_asof": "2026-11-18"
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "HUHTAMAKI",
@@ -3051,22 +3581,22 @@
       "expansion_pct_gain": 20.0,
       "expansion_close": 229.57,
       "expansion_volume": 1788770,
-      "volume_ema50_at_expansion": 546327,
+      "volume_ema50_at_expansion": 546338,
       "volume_multiple": 3.27,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-10-29",
       "peak_high": 243.41,
       "max_drawdown_from_peak_close_pct": 14.93,
-      "current_close": 223.38,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-04"
       ],
       "latest_inside_bar_date": "2026-11-04",
       "name": "Huhtamaki India Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "GREENPANEL",
@@ -3074,45 +3604,68 @@
       "expansion_pct_gain": 6.95,
       "expansion_close": 133.15,
       "expansion_volume": 1068632,
-      "volume_ema50_at_expansion": 332368,
+      "volume_ema50_at_expansion": 332375,
       "volume_multiple": 3.22,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-09",
       "peak_high": 147.26,
       "max_drawdown_from_peak_close_pct": 1.01,
-      "current_close": 149.94,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
         "2026-11-13"
       ],
       "latest_inside_bar_date": "2026-11-13",
       "name": "Greenpanel Industries Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
-      "symbol": "APLAPOLLO",
-      "expansion_date": "2026-10-27",
-      "expansion_pct_gain": 6.55,
-      "expansion_close": 2213.9,
-      "expansion_volume": 2074071,
-      "volume_ema50_at_expansion": 653613,
+      "symbol": "BBOX",
+      "expansion_date": "2026-11-11",
+      "expansion_pct_gain": 6.56,
+      "expansion_close": 868.2,
+      "expansion_volume": 2832143,
+      "volume_ema50_at_expansion": 893971,
       "volume_multiple": 3.17,
       "yearly_high_volume_checked": false,
-      "peak_date": "2026-10-29",
-      "peak_high": 2239.0,
-      "max_drawdown_from_peak_close_pct": 3.85,
-      "current_close": 2251.6,
-      "as_of_date": "2026-11-13",
+      "peak_date": "2026-11-13",
+      "peak_high": 950.0,
+      "max_drawdown_from_peak_close_pct": 7.37,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-13"
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-13",
-      "name": "Apl Apollo Tubes Limited",
-      "category": "midcap",
-      "first_seen_asof": "2026-11-13",
-      "last_seen_asof": "2026-11-15"
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Black Box Ltd",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-23",
+      "last_seen_asof": "2026-11-24"
+    },
+    {
+      "symbol": "QUESS",
+      "expansion_date": "2026-11-09",
+      "expansion_pct_gain": 8.0,
+      "expansion_close": 345.7,
+      "expansion_volume": 1476906,
+      "volume_ema50_at_expansion": 477409,
+      "volume_multiple": 3.09,
+      "yearly_high_volume_checked": false,
+      "peak_date": "2026-11-11",
+      "peak_high": 356.6,
+      "max_drawdown_from_peak_close_pct": 8.2,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
+      "inside_bar_dates": [
+        "2026-11-20"
+      ],
+      "latest_inside_bar_date": "2026-11-20",
+      "name": "Quess Corp Limited",
+      "category": "smallcap",
+      "first_seen_asof": "2026-11-20",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "RGL",
@@ -3120,22 +3673,23 @@
       "expansion_pct_gain": 8.57,
       "expansion_close": 154.31,
       "expansion_volume": 3159223,
-      "volume_ema50_at_expansion": 1037091,
+      "volume_ema50_at_expansion": 1037096,
       "volume_multiple": 3.05,
       "yearly_high_volume_checked": false,
       "peak_date": "2026-11-11",
       "peak_high": 162.0,
-      "max_drawdown_from_peak_close_pct": 8.23,
-      "current_close": 148.67,
-      "as_of_date": "2026-11-17",
+      "max_drawdown_from_peak_close_pct": 13.12,
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-18"
       ],
-      "latest_inside_bar_date": "2026-11-16",
+      "latest_inside_bar_date": "2026-11-18",
       "name": "Renaissance Global Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-16",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     },
     {
       "symbol": "SUDEEPPHRM",
@@ -3149,16 +3703,17 @@
       "peak_date": "2026-10-29",
       "peak_high": 1162.5,
       "max_drawdown_from_peak_close_pct": 8.1,
-      "current_close": 1217.5,
-      "as_of_date": "2026-11-17",
+      "current_close": NaN,
+      "as_of_date": "2026-11-23",
       "inside_bar_dates": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-20"
       ],
-      "latest_inside_bar_date": "2026-11-06",
+      "latest_inside_bar_date": "2026-11-20",
       "name": "Sudeep Pharma Ltd",
       "category": "smallcap",
-      "first_seen_asof": "2026-11-11",
-      "last_seen_asof": "2026-11-18"
+      "first_seen_asof": "2026-11-17",
+      "last_seen_asof": "2026-11-24"
     }
   ]
 }
