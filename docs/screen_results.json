@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:42:12.814184",
+  "generated_at": "2026-11-25T21:56:42.357786",
   "universe_size": 1032,
   "fetched": 977,
   "passed_count": 139,
@@ -3483,7 +3483,7 @@
       "sma50": 8685.02,
       "sma150": 7900.79,
       "sma200": 7486.93,
-      "low_52w": 5428.52,
+      "low_52w": 5428.51,
       "high_52w": 10360.0,
       "pct_above_low": 87.0,
       "pct_below_high": -2.0,
